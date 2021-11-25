@@ -1,0 +1,10 @@
+
+This is an automatically generated audit report for the given url.
+This report contains information on :
+
+	1. Ssl certificate of the url.
+	2. Cookie/privacy policy.
+	3. Wheteher or not the user's permission was taken for using cookies.
+	4. Adherence with ADA Compliance.
+
+Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.
