@@ -20,7 +20,7 @@ def format_issuer(issuer):
             cnt = 0
             li = i
         i += 1
-    return x
+    return x.replace("Name", " name")
 
 
 def format_link(url):
@@ -52,7 +52,7 @@ def ssl_report(url):
     x = format_issuer(issuer)
     ssl_text += f"\nIssued To - {format_link(f'{url}')}\n"
     ssl_text += f"\nIssued by :\n {x}\n"
-    ssl_text += f"\nValid From : {str(ssl_dict['notBefore']).replace('GMT','UTC')}\nValid Upto : {str(ssl_dict['notAfter']).replace('GMT','UTC')}\n"
+    ssl_text += f"\nValid From : {str(ssl_dict['notBefore']).replace('GMT', 'UTC')}\nValid Upto : {str(ssl_dict['notAfter']).replace('GMT', 'UTC')}\n"
 
     return ssl_text
 

@@ -389,7 +389,7 @@
                             ]
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
+                    "html": "<h1 id=\"takeover-title\">Building cost-efficient open source cloud operations</h1>",
                     "impact": "serious",
                     "none": [],
                     "target": [
@@ -422,7 +422,7 @@
                             ]
                         }
                     ],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">In this white paper, we will review seven techniques that can help to reduce latency in high volume, low criticality Kafka solutions running on Kubernetes.</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">IT Operations: efficiency vs digital transformation</p>",
                     "impact": "serious",
                     "none": [],
                     "target": [
@@ -604,11 +604,11 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<time datetime=\"24 November 2021\" class=\"article-time\">24 November 2021</time>",
+                    "html": "<time datetime=\"25 November 2021\" class=\"article-time\">25 November 2021</time>",
                     "impact": "serious",
                     "none": [],
                     "target": [
-                        ".col-3:nth-child(1) > .p-muted-heading.u-no-margin--bottom > time[datetime=\"\\32 4\\ November\\ 2021\"]"
+                        "time[datetime=\"\\32 5\\ November\\ 2021\"]"
                     ]
                 },
                 {
@@ -630,7 +630,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a>",
                     "impact": "serious",
                     "none": [],
                     "target": [
@@ -682,11 +682,11 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
                     "impact": "serious",
                     "none": [],
                     "target": [
-                        "a[href$=\"what-is-embedded-linux\"]"
+                        ".col-3:nth-child(2) > .p-heading--five > .article-link.article-title"
                     ]
                 },
                 {
@@ -708,11 +708,11 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<time datetime=\"23 November 2021\" class=\"article-time\">23 November 2021</time>",
+                    "html": "<time datetime=\"24 November 2021\" class=\"article-time\">24 November 2021</time>",
                     "impact": "serious",
                     "none": [],
                     "target": [
-                        "time[datetime=\"\\32 3\\ November\\ 2021\"]"
+                        ".col-3:nth-child(3) > .p-muted-heading.u-no-margin--bottom > time[datetime=\"\\32 4\\ November\\ 2021\"]"
                     ]
                 },
                 {
@@ -734,11 +734,11 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/canonical-at-cloud-expo-europe-frankfurt-2021\">Meet Canonical at Cloud Expo Europe Frankfurt 2021</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a>",
                     "impact": "serious",
                     "none": [],
                     "target": [
-                        ".col-3:nth-child(3) > .p-heading--five > .article-link.article-title"
+                        "a[href$=\"what-is-embedded-linux\"]"
                     ]
                 },
                 {
@@ -8296,7 +8296,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -8542,7 +8542,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9020,7 +9020,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
+                    "html": "<h1 id=\"takeover-title\">Building cost-efficient open source cloud operations</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9038,7 +9038,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">In this white paper, we will review seven techniques that can help to reduce latency in high volume, low criticality Kafka solutions running on Kubernetes.</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">IT Operations: efficiency vs digital transformation</p>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9056,7 +9056,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<div id=\"takeover-ctas\">\n        <p><a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a></p>\n        <p>\n          \n        </p>\n      </div>",
+                    "html": "<div id=\"takeover-ctas\">\n        <p><a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a></p>\n        <p>\n          \n        </p>\n      </div>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9074,7 +9074,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<img id=\"takeover-image\" src=\"https://assets.ubuntu.com/v1/a70bfab2-Managed-apps_wht.svg\" width=\"350\" alt=\"\" height=\"200\">",
+                    "html": "<img id=\"takeover-image\" src=\"https://assets.ubuntu.com/v1/a70bfab2-Managed-apps_wht.svg\" width=\"336\" alt=\"\" height=\"282\">",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9206,6 +9206,24 @@
                     "target": [
                         "#modal"
                     ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<script type=\"text/javascript\" id=\"\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "body > script[type=\"text\\/javascript\"]"
+                    ]
                 }
             ],
             "tags": [
@@ -9232,7 +9250,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
+                    "html": "<h1 id=\"takeover-title\">Building cost-efficient open source cloud operations</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9304,7 +9322,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a></h2>",
+                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a></h2>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9322,7 +9340,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a></h2>",
+                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a></h2>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9340,7 +9358,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/canonical-at-cloud-expo-europe-frankfurt-2021\">Meet Canonical at Cloud Expo Europe Frankfurt 2021</a></h2>",
+                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a></h2>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9947,7 +9965,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
+                    "html": "<h1 id=\"takeover-title\">Building cost-efficient open source cloud operations</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -10019,7 +10037,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a></h2>",
+                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a></h2>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -10037,7 +10055,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a></h2>",
+                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a></h2>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -10055,7 +10073,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/canonical-at-cloud-expo-europe-frankfurt-2021\">Meet Canonical at Cloud Expo Europe Frankfurt 2021</a></h2>",
+                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a></h2>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -11148,7 +11166,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">In this white paper, we will review seven techniques that can help to reduce latency in high volume, low criticality Kafka solutions running on Kubernetes.</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">IT Operations: efficiency vs digital transformation</p>",
                     "impact": null,
                     "none": [
                         {
@@ -11166,7 +11184,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p><a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a></p>",
+                    "html": "<p><a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a></p>",
                     "impact": null,
                     "none": [
                         {
@@ -11184,7 +11202,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a>",
                     "impact": null,
                     "none": [
                         {
@@ -11400,7 +11418,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p class=\"u-no-margin--bottom p-muted-heading\"><time datetime=\"24 November 2021\" class=\"article-time\">24 November 2021</time></p>",
+                    "html": "<p class=\"u-no-margin--bottom p-muted-heading\"><time datetime=\"25 November 2021\" class=\"article-time\">25 November 2021</time></p>",
                     "impact": null,
                     "none": [
                         {
@@ -11418,7 +11436,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a>",
                     "impact": null,
                     "none": [
                         {
@@ -11454,7 +11472,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
                     "impact": null,
                     "none": [
                         {
@@ -11466,13 +11484,13 @@
                         }
                     ],
                     "target": [
-                        "a[href$=\"what-is-embedded-linux\"]"
+                        ".col-3:nth-child(2) > .p-heading--five > .article-link.article-title"
                     ]
                 },
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p class=\"u-no-margin--bottom p-muted-heading\"><time datetime=\"23 November 2021\" class=\"article-time\">23 November 2021</time></p>",
+                    "html": "<p class=\"u-no-margin--bottom p-muted-heading\"><time datetime=\"24 November 2021\" class=\"article-time\">24 November 2021</time></p>",
                     "impact": null,
                     "none": [
                         {
@@ -11490,7 +11508,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/canonical-at-cloud-expo-europe-frankfurt-2021\">Meet Canonical at Cloud Expo Europe Frankfurt 2021</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a>",
                     "impact": null,
                     "none": [
                         {
@@ -11502,7 +11520,7 @@
                         }
                     ],
                     "target": [
-                        ".col-3:nth-child(3) > .p-heading--five > .article-link.article-title"
+                        "a[href$=\"what-is-embedded-linux\"]"
                     ]
                 },
                 {
@@ -18142,7 +18160,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a>",
                     "impact": null,
                     "none": [
                         {
@@ -18246,7 +18264,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a>",
                     "impact": null,
                     "none": [
                         {
@@ -18259,6 +18277,32 @@
                     ],
                     "target": [
                         ".col-3:nth-child(1) > .p-heading--five > .article-link.article-title"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".col-3:nth-child(2) > .p-heading--five > .article-link.article-title"
                     ]
                 },
                 {
@@ -18285,32 +18329,6 @@
                     ],
                     "target": [
                         "a[href$=\"what-is-embedded-linux\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": null,
-                            "id": "has-visible-text",
-                            "impact": "minor",
-                            "message": "Element has text that is visible to screen readers",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/canonical-at-cloud-expo-europe-frankfurt-2021\">Meet Canonical at Cloud Expo Europe Frankfurt 2021</a>",
-                    "impact": null,
-                    "none": [
-                        {
-                            "data": null,
-                            "id": "focusable-no-name",
-                            "impact": "serious",
-                            "message": "Element is not in tab order or has accessible text",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "target": [
-                        ".col-3:nth-child(3) > .p-heading--five > .article-link.article-title"
                     ]
                 },
                 {
@@ -25978,7 +25996,7 @@
                             "message": "Page has at least one level-one heading",
                             "relatedNodes": [
                                 {
-                                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
+                                    "html": "<h1 id=\"takeover-title\">Building cost-efficient open source cloud operations</h1>",
                                     "target": [
                                         "#takeover-title"
                                     ]
@@ -26064,7 +26082,7 @@
             ]
         }
     ],
-    "timestamp": "2021-11-25T16:45:50.065Z",
+    "timestamp": "2021-11-25T17:36:40.201Z",
     "url": "https://ubuntu.com/",
     "violations": [
         {
@@ -26281,19 +26299,19 @@
                             "message": "Some page content is not contained by landmarks",
                             "relatedNodes": [
                                 {
-                                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
+                                    "html": "<h1 id=\"takeover-title\">Building cost-efficient open source cloud operations</h1>",
                                     "target": [
                                         "#takeover-title"
                                     ]
                                 },
                                 {
-                                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">In this white paper, we will review seven techniques that can help to reduce latency in high volume, low criticality Kafka solutions running on Kubernetes.</p>",
+                                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">IT Operations: efficiency vs digital transformation</p>",
                                     "target": [
                                         "#takeover-subtitle"
                                     ]
                                 },
                                 {
-                                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
+                                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a>",
                                     "target": [
                                         "#takeover-primary-url"
                                     ]
@@ -26365,13 +26383,13 @@
                                     ]
                                 },
                                 {
-                                    "html": "<time datetime=\"24 November 2021\" class=\"article-time\">24 November 2021</time>",
+                                    "html": "<time datetime=\"25 November 2021\" class=\"article-time\">25 November 2021</time>",
                                     "target": [
-                                        ".col-3:nth-child(1) > .p-muted-heading.u-no-margin--bottom > time[datetime=\"\\32 4\\ November\\ 2021\"]"
+                                        "time[datetime=\"\\32 5\\ November\\ 2021\"]"
                                     ]
                                 },
                                 {
-                                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
+                                    "html": "<a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a>",
                                     "target": [
                                         ".col-3:nth-child(1) > .p-heading--five > .article-link.article-title"
                                     ]
@@ -26383,21 +26401,21 @@
                                     ]
                                 },
                                 {
+                                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
+                                    "target": [
+                                        ".col-3:nth-child(2) > .p-heading--five > .article-link.article-title"
+                                    ]
+                                },
+                                {
+                                    "html": "<time datetime=\"24 November 2021\" class=\"article-time\">24 November 2021</time>",
+                                    "target": [
+                                        ".col-3:nth-child(3) > .p-muted-heading.u-no-margin--bottom > time[datetime=\"\\32 4\\ November\\ 2021\"]"
+                                    ]
+                                },
+                                {
                                     "html": "<a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a>",
                                     "target": [
                                         "a[href$=\"what-is-embedded-linux\"]"
-                                    ]
-                                },
-                                {
-                                    "html": "<time datetime=\"23 November 2021\" class=\"article-time\">23 November 2021</time>",
-                                    "target": [
-                                        "time[datetime=\"\\32 3\\ November\\ 2021\"]"
-                                    ]
-                                },
-                                {
-                                    "html": "<a class=\"article-link article-title\" href=\"/blog/canonical-at-cloud-expo-europe-frankfurt-2021\">Meet Canonical at Cloud Expo Europe Frankfurt 2021</a>",
-                                    "target": [
-                                        ".col-3:nth-child(3) > .p-heading--five > .article-link.article-title"
                                     ]
                                 },
                                 {

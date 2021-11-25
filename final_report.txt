@@ -19,22 +19,22 @@ Only a subset of accessibility issues can be automatically detected so manual te
 Issued To - ubuntu.com
 
 Issued by :
- 	countryName :  US	organizationName :  "Lets Encrypt"	commonName :  R3
+ 	country name :  US	organization name :  "Lets Encrypt"	common name :  R3
 
-Valid From : Sep 17 10:50:43 2021 UTC
-Valid Upto : Dec 16 10:50:42 2021 UTC
+Valid From : Nov 10 08:20:36 2021 UTC
+Valid Upto : Feb  8 08:20:35 2022 UTC
 
 ---------------------COOKIE REPORT---------------------
 
 COOKIES DETECTED : 
 
 	Domain : .ubuntu.com
-		Expires On : 2021-11-25 16:45:52.645049 UTC
-		Value : GA1.2.2064178948.1637858716
+		Expires On : 2021-11-25 17:36:42.519997 UTC
+		Value : GA1.2.1366016699.1637861777
 		Send For : For All Connections
 	Domain : .ubuntu.com
-		Expires On : 2021-11-25 16:45:52.645049 UTC
-		Value : GA1.2.115456142.1637858716
+		Expires On : 2021-11-25 17:36:42.519997 UTC
+		Value : GA1.2.2109863207.1637861777
 		Send For : For All Connections
 
 
