@@ -1,5 +1,6 @@
 from selenium import webdriver
 from collections import OrderedDict
+from driver_solver import get_driver_path
 from directory_create_module import create_dir
 import json
 
@@ -12,7 +13,7 @@ class CatCookie:
         c_op = webdriver.ChromeOptions()
         c_op.add_argument("--headless")
         c_op.add_argument("--log-level=3")
-        self.driver = webdriver.Chrome(executable_path="drivers/chromedriver_win32/chromedriver.exe", options= c_op)
+        self.driver = webdriver.Chrome(executable_path=get_driver_path(), options= c_op)
         #self.driver = webdriver.PhantomJS("drivers/phantomjs/bin/phantomjs.exe")
 
     def get_cookies(self):

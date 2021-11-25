@@ -1,5 +1,6 @@
 from selenium import webdriver
 from axe_selenium_python import Axe
+from driver_solver import get_driver_path
 from directory_create_module import create_dir
 
 
@@ -22,7 +23,7 @@ class WCAG_TESTER:
         op = webdriver.ChromeOptions()
         op.add_argument("--log-level=3")
         op.add_argument("--headless")
-        driver = webdriver.Chrome(executable_path='drivers/chromedriver_win32/chromedriver.exe', options=op)
+        driver = webdriver.Chrome(executable_path=get_driver_path(), options=op)
         driver.get(f"{self.url}")
         axe = Axe(driver)
         axe.inject()
