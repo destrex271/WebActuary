@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ..
+
+python main.py
