@@ -389,7 +389,7 @@
                             ]
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">Building cost-efficient open source cloud operations</h1>",
+                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
                     "impact": "serious",
                     "none": [],
                     "target": [
@@ -422,7 +422,7 @@
                             ]
                         }
                     ],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">IT Operations: efficiency vs digital transformation</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">In this white paper, we will review seven techniques that can help to reduce latency in high volume, low criticality Kafka solutions running on Kubernetes.</p>",
                     "impact": "serious",
                     "none": [],
                     "target": [
@@ -8296,7 +8296,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -8542,7 +8542,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9020,7 +9020,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">Building cost-efficient open source cloud operations</h1>",
+                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9038,7 +9038,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">IT Operations: efficiency vs digital transformation</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">In this white paper, we will review seven techniques that can help to reduce latency in high volume, low criticality Kafka solutions running on Kubernetes.</p>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9056,7 +9056,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<div id=\"takeover-ctas\">\n        <p><a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a></p>\n        <p>\n          \n        </p>\n      </div>",
+                    "html": "<div id=\"takeover-ctas\">\n        <p><a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a></p>\n        <p>\n          \n        </p>\n      </div>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9074,7 +9074,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<img id=\"takeover-image\" src=\"https://assets.ubuntu.com/v1/a70bfab2-Managed-apps_wht.svg\" width=\"336\" alt=\"\" height=\"282\">",
+                    "html": "<img id=\"takeover-image\" src=\"https://assets.ubuntu.com/v1/a70bfab2-Managed-apps_wht.svg\" width=\"350\" alt=\"\" height=\"200\">",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9232,7 +9232,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">Building cost-efficient open source cloud operations</h1>",
+                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9947,7 +9947,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">Building cost-efficient open source cloud operations</h1>",
+                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -11148,7 +11148,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">IT Operations: efficiency vs digital transformation</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">In this white paper, we will review seven techniques that can help to reduce latency in high volume, low criticality Kafka solutions running on Kubernetes.</p>",
                     "impact": null,
                     "none": [
                         {
@@ -11166,7 +11166,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p><a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a></p>",
+                    "html": "<p><a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a></p>",
                     "impact": null,
                     "none": [
                         {
@@ -11184,7 +11184,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
                     "impact": null,
                     "none": [
                         {
@@ -18142,7 +18142,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
                     "impact": null,
                     "none": [
                         {
@@ -25978,7 +25978,7 @@
                             "message": "Page has at least one level-one heading",
                             "relatedNodes": [
                                 {
-                                    "html": "<h1 id=\"takeover-title\">Building cost-efficient open source cloud operations</h1>",
+                                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
                                     "target": [
                                         "#takeover-title"
                                     ]
@@ -26064,7 +26064,7 @@
             ]
         }
     ],
-    "timestamp": "2021-11-25T15:29:35.841Z",
+    "timestamp": "2021-11-25T16:45:50.065Z",
     "url": "https://ubuntu.com/",
     "violations": [
         {
@@ -26281,19 +26281,19 @@
                             "message": "Some page content is not contained by landmarks",
                             "relatedNodes": [
                                 {
-                                    "html": "<h1 id=\"takeover-title\">Building cost-efficient open source cloud operations</h1>",
+                                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
                                     "target": [
                                         "#takeover-title"
                                     ]
                                 },
                                 {
-                                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">IT Operations: efficiency vs digital transformation</p>",
+                                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">In this white paper, we will review seven techniques that can help to reduce latency in high volume, low criticality Kafka solutions running on Kubernetes.</p>",
                                     "target": [
                                         "#takeover-subtitle"
                                     ]
                                 },
                                 {
-                                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/cost-efficient-open-source-cloud-operations?utm_medium=takeover&amp;utm_campaign=7014K000000UWhDQAW\" class=\"p-button--positive\">Register for our webinar</a>",
+                                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
                                     "target": [
                                         "#takeover-primary-url"
                                     ]

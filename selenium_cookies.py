@@ -11,7 +11,8 @@ class CatCookie:
         self.folder_name = folder
         c_op = webdriver.ChromeOptions()
         c_op.add_argument("--headless")
-        self.driver = webdriver.Chrome("drivers/chromedriver_win32/chromedriver.exe", options= c_op)
+        c_op.add_argument("--log-level=3")
+        self.driver = webdriver.Chrome(executable_path="drivers/chromedriver_win32/chromedriver.exe", options= c_op)
         #self.driver = webdriver.PhantomJS("drivers/phantomjs/bin/phantomjs.exe")
 
     def get_cookies(self):

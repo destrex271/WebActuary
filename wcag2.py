@@ -20,6 +20,7 @@ class WCAG_TESTER:
 
     def validate(self):
         op = webdriver.ChromeOptions()
+        op.add_argument("--log-level=3")
         op.add_argument("--headless")
         driver = webdriver.Chrome(executable_path='drivers/chromedriver_win32/chromedriver.exe', options=op)
         driver.get(f"{self.url}")
