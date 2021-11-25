@@ -51,3 +51,6 @@ ___You Can install these dependencies manually using pip or you can use the depe
 - For an accurate audit report kindly disable chrome extensions like darkreader that might affect the default User Interface of the webpage since most of the accessibility tests are run on the client side.
  
 - Also kindly disable other chrome extensions that might block the cookies and pop-ups/banners.
+- If you face an error like:
+      This version of ChromeDriver only supports Chrome version X.
+      Please download the suitable driver from https://chromedriver.chromium.org/downloads according to the version as seen in the error according to your operating system.

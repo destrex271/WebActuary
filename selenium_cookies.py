@@ -13,8 +13,8 @@ class CatCookie:
         c_op = webdriver.ChromeOptions()
         c_op.add_argument("--headless")
         c_op.add_argument("--log-level=3")
-        self.driver = webdriver.Chrome(executable_path=get_driver_path(), options= c_op)
-        #self.driver = webdriver.PhantomJS("drivers/phantomjs/bin/phantomjs.exe")
+        self.driver = webdriver.Chrome(executable_path=get_driver_path(), options=c_op)
+        # self.driver = webdriver.PhantomJS("drivers/phantomjs/bin/phantomjs.exe")
 
     def get_cookies(self):
         self.driver.get(f'{self.url}')
