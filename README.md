@@ -41,3 +41,13 @@ ___You Can install these dependencies manually using pip or you can use the depe
   __Both these files are present in the windows folder__
 
 
+
+## Known Issues ##
+- Please ensure that your python installation has the python3.dll file along with it. If not you might face an error similar to this:
+
+      from PyQt5.QtWebEngineWidgets import QWebEnginePage
+      ImportError: DLL load failed while importing QtWebEngineWidgets: The specified module could not be found.
+
+- For an accurate audit report kindly disable chrome extensions like darkreader that might affect the default User Interface of the webpage since most of the accessibility tests are run on the client side.
+ 
+- Also kindly disable other chrome extensions that might block the cookies and pop-ups/banners.
