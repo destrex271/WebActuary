@@ -24,9 +24,9 @@ Download the Chrome webdriver for your specific operating system and follow the 
 - Windows
   - Create a directory name `C:\bin`
   - Check your chrome browser version from `Menu>Help>About Chrome` from google chrome browser.(it would be a number like 96.0.445.0 etc)
-  - Download the chrome driver according to your chrome version from `https://chromedriver.chromium.org/downloads`
+  - Download the chrome driver according to your chrome version from https://chromedriver.chromium.org/downloads
   - Extract the zip file and copy the chromedriver.exe file to `C:\bin`
-  - Setup the Environment variable for the chromewebdriver as follows:
+  - Setup the Environment variable for the chromewebdriver as follows
     - 
     - Search for 'Env' in start launcher and click on 'Edit the System environment variables' option.
     
@@ -41,7 +41,7 @@ Download the Chrome webdriver for your specific operating system and follow the 
   - Verify setup with `chromedriver.exe -v` and check if the version mentions your google chrome version.
 - Linux
   - Please check your google chrome version by running `google-chrome --version` in your terminal.
-  - Download the chrome webdriver according to the chrome version from `https://chromedriver.chromium.org/downloads`
+  - Download the chrome webdriver according to the chrome version from https://chromedriver.chromium.org/downloads
   - Unzip the folder and copy the `chromedriver` file to `/usr/bin/chromedriver` by `sudo mv chromedriver /usr/bin/chromedriver`
   - Run these commands to make it executable `sudo chown root:root /usr/bin/chromedriver` and `sudo chmod +x /usr/bin/chromedriver`
 
