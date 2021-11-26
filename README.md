@@ -45,6 +45,7 @@ Download the Chrome webdriver for your specific operating system and follow the 
   - Unzip the folder and copy the `chromedriver` file to `/usr/bin/chromedriver` by `sudo mv chromedriver /usr/bin/chromedriver`
   - Run these commands to make it executable `sudo chown root:root /usr/bin/chromedriver` and `sudo chmod +x /usr/bin/chromedriver`
   - Please ensure that you have the latest version of pip installed. If not then please install it from `sudo apt-get install python3-pip`
+  - while running the dependency.sh file you get an error as : `ERROR: pyopensll 21.0.0 has requirement cryptography>=3.3, but you'll have cryptography 2.8 which is incompatible` then run `pip install cryptography==3.3` to resolve it.
 
 The python libraries required for this tool are:
 
