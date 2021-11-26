@@ -23,6 +23,7 @@ Download the Chrome webdriver for your specific operating system and follow the 
 
 - Windows
   - Create a directory names `C:\bin`
+  - Check your chrome browser version from `Menu>Help>About Chrome` from google chrome brwoser.(it would be a number like 96.0.445.0 etc)
   - Download the chrome driver according to your chrome version from `https://chromedriver.chromium.org/downloads`
   - Extract the zip file and copy the chromedriver.exe file to `C:\bin`
   - Open command prompt and set the `PATH` for your account
