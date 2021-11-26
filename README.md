@@ -62,7 +62,7 @@ ___You Can install these dependencies manually using pip or you can use the depe
 ## Running this tool on various operating systems ##
 
 - ### Windows ###
-  Navigate to the `windows` folder under `WebActuary-main/` and run the `dependencies.py` file in order to get all the libraries being used.
+  Navigate to the `windows` folder under `WebActuary-main/` and run the `dependencies.bat` file in order to get all the libraries being used.
   
   After this run the `begin_audit.bat` file to start the applications.
 
