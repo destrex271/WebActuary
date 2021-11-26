@@ -26,10 +26,19 @@ Download the Chrome webdriver for your specific operating system and follow the 
   - Check your chrome browser version from `Menu>Help>About Chrome` from google chrome browser.(it would be a number like 96.0.445.0 etc)
   - Download the chrome driver according to your chrome version from `https://chromedriver.chromium.org/downloads`
   - Extract the zip file and copy the chromedriver.exe file to `C:\bin`
-  - Open command prompt and set the `PATH` for your account
-    `setx PATH "%PATH%;C:\bin"`. Please run this command only once and not more than that as it might cause issues pertaining to environment variable. If you want to 
-  - Restart Command prompt
-  - Verify setup with `chromedriver.exe -v`
+  - Setup the Environment variable for the chromewebdriver as follows:
+    - 
+    - Search for 'Env' in start launcher and click on 'Edit the System environment variables' option.
+    
+      !['Control Panel'](https://i.imgur.com/zE1TUF0.png)
+      -
+      - Open the Environment variables window.
+
+      !['Env App'](https://i.imgur.com/6TzjjYH.png)
+      
+      - Edit the Path variable in User variables and add C:\bin to it
+      !['Add to Path'](https://i.imgur.com/z2kJyvR.png)
+  - Verify setup with `chromedriver.exe -v` and check if the version mentions your google chrome version.
 - Linux
   - Please check your google chrome version by running `google-chrome --version` in your terminal.
   - Download the chrome webdriver according to the chrome version from `https://chromedriver.chromium.org/downloads`
