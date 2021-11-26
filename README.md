@@ -28,6 +28,12 @@ Download the Chrome webdriver for your specific operating system and follow the 
     `setx PATH "%PATH%;C:\bin"`
   - Restart Command prompt
   - Verify setup with `chromedriver.exe -v`
+- Linux
+  - Please check your google chrome version by running `google-chrome --version` in your terminal.
+  - Download the chrome webdriver according to the chrome version from `https://chromedriver.chromium.org/downloads`
+  - Unzip the folder and copy the `chromedriver` file to `/usr/bin/chromedriver` by `sudo mv chromedriver /usr/bin/chromedriver`
+  - Run these commands to make it executable `sudo chown root:root /usr/bin/chromedriver` and `sudo chmod +x /usr/bin/chromedriver`
+  - 
 
 The python libraries required for this tool are:
 

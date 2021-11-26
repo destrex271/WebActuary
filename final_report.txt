@@ -29,12 +29,12 @@ Valid Upto : Feb  8 08:20:35 2022 UTC
 COOKIES DETECTED : 
 
 	Domain : .ubuntu.com
-		Expires On : 2021-11-26 02:37:14.232148 UTC
-		Value : GA1.2.220535112.1637894198
+		Expires On : 2021-11-26 06:27:21.592262 UTC
+		Value : GA1.2.100799012.1637908008
 		Send For : For All Connections
 	Domain : .ubuntu.com
-		Expires On : 2021-11-26 02:37:14.232148 UTC
-		Value : GA1.2.1015744551.1637894198
+		Expires On : 2021-11-26 06:27:21.592262 UTC
+		Value : GA1.2.525582122.1637908008
 		Send For : For All Connections
 
 

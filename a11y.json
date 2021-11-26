@@ -389,7 +389,7 @@
                             ]
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">Finserv IT infrastructure: Migrating from VMWare to OpenStack</h1>",
+                    "html": "<h1 id=\"takeover-title\">Telecom infrastructure the open source way</h1>",
                     "impact": "serious",
                     "none": [],
                     "target": [
@@ -422,7 +422,7 @@
                             ]
                         }
                     ],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">CIOs\u2019 guide to migrating your private cloud infrastructure to a more cost effective solution</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">Automated, secure and cloud native telco</p>",
                     "impact": "serious",
                     "none": [],
                     "target": [
@@ -8296,7 +8296,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/finserv-vmware-to-openstack?utm_medium=takeover&amp;utm_campaign=7014K000000UWDTQA4\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/open-source-telco-infrastructure-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUX6\" class=\"p-button--positive\">Download whitepaper</a>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -8542,7 +8542,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/finserv-vmware-to-openstack?utm_medium=takeover&amp;utm_campaign=7014K000000UWDTQA4\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/open-source-telco-infrastructure-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUX6\" class=\"p-button--positive\">Download whitepaper</a>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9020,7 +9020,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">Finserv IT infrastructure: Migrating from VMWare to OpenStack</h1>",
+                    "html": "<h1 id=\"takeover-title\">Telecom infrastructure the open source way</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9038,7 +9038,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">CIOs\u2019 guide to migrating your private cloud infrastructure to a more cost effective solution</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">Automated, secure and cloud native telco</p>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9056,7 +9056,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<div id=\"takeover-ctas\">\n        <p><a id=\"takeover-primary-url\" href=\"/engage/finserv-vmware-to-openstack?utm_medium=takeover&amp;utm_campaign=7014K000000UWDTQA4\" class=\"p-button--positive\">Download Now</a></p>\n        <p>\n          \n        </p>\n      </div>",
+                    "html": "<div id=\"takeover-ctas\">\n        <p><a id=\"takeover-primary-url\" href=\"/engage/open-source-telco-infrastructure-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUX6\" class=\"p-button--positive\">Download whitepaper</a></p>\n        <p>\n          \n        </p>\n      </div>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9074,7 +9074,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<img id=\"takeover-image\" src=\"https://assets.ubuntu.com/v1/54de4275-FinServ-RHvsCanonical_2021.svg\" width=\"350\" alt=\"\" height=\"250\">",
+                    "html": "<img id=\"takeover-image\" src=\"https://assets.ubuntu.com/v1/81bd199a-model_wht.svg\" width=\"350\" alt=\"\" height=\"225\">",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9193,24 +9193,6 @@
                     "all": [],
                     "any": [
                         {
-                            "data": null,
-                            "id": "duplicate-id",
-                            "impact": "minor",
-                            "message": "Document has no static elements that share the same id attribute",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<script type=\"text/javascript\" id=\"\">",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        "body > script[type=\"text\\/javascript\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
                             "data": "modal",
                             "id": "duplicate-id",
                             "impact": "minor",
@@ -9223,6 +9205,24 @@
                     "none": [],
                     "target": [
                         "#modal"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<script type=\"text/javascript\" id=\"\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "body > script[type=\"text\\/javascript\"]"
                     ]
                 }
             ],
@@ -9250,7 +9250,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">Finserv IT infrastructure: Migrating from VMWare to OpenStack</h1>",
+                    "html": "<h1 id=\"takeover-title\">Telecom infrastructure the open source way</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9965,7 +9965,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">Finserv IT infrastructure: Migrating from VMWare to OpenStack</h1>",
+                    "html": "<h1 id=\"takeover-title\">Telecom infrastructure the open source way</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -11166,7 +11166,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">CIOs\u2019 guide to migrating your private cloud infrastructure to a more cost effective solution</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">Automated, secure and cloud native telco</p>",
                     "impact": null,
                     "none": [
                         {
@@ -11184,7 +11184,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p><a id=\"takeover-primary-url\" href=\"/engage/finserv-vmware-to-openstack?utm_medium=takeover&amp;utm_campaign=7014K000000UWDTQA4\" class=\"p-button--positive\">Download Now</a></p>",
+                    "html": "<p><a id=\"takeover-primary-url\" href=\"/engage/open-source-telco-infrastructure-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUX6\" class=\"p-button--positive\">Download whitepaper</a></p>",
                     "impact": null,
                     "none": [
                         {
@@ -11202,7 +11202,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/finserv-vmware-to-openstack?utm_medium=takeover&amp;utm_campaign=7014K000000UWDTQA4\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/open-source-telco-infrastructure-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUX6\" class=\"p-button--positive\">Download whitepaper</a>",
                     "impact": null,
                     "none": [
                         {
@@ -18160,7 +18160,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/finserv-vmware-to-openstack?utm_medium=takeover&amp;utm_campaign=7014K000000UWDTQA4\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/open-source-telco-infrastructure-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUX6\" class=\"p-button--positive\">Download whitepaper</a>",
                     "impact": null,
                     "none": [
                         {
@@ -25996,7 +25996,7 @@
                             "message": "Page has at least one level-one heading",
                             "relatedNodes": [
                                 {
-                                    "html": "<h1 id=\"takeover-title\">Finserv IT infrastructure: Migrating from VMWare to OpenStack</h1>",
+                                    "html": "<h1 id=\"takeover-title\">Telecom infrastructure the open source way</h1>",
                                     "target": [
                                         "#takeover-title"
                                     ]
@@ -26082,7 +26082,7 @@
             ]
         }
     ],
-    "timestamp": "2021-11-26T02:37:11.928Z",
+    "timestamp": "2021-11-26T06:27:19.057Z",
     "url": "https://ubuntu.com/",
     "violations": [
         {
@@ -26299,19 +26299,19 @@
                             "message": "Some page content is not contained by landmarks",
                             "relatedNodes": [
                                 {
-                                    "html": "<h1 id=\"takeover-title\">Finserv IT infrastructure: Migrating from VMWare to OpenStack</h1>",
+                                    "html": "<h1 id=\"takeover-title\">Telecom infrastructure the open source way</h1>",
                                     "target": [
                                         "#takeover-title"
                                     ]
                                 },
                                 {
-                                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">CIOs\u2019 guide to migrating your private cloud infrastructure to a more cost effective solution</p>",
+                                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">Automated, secure and cloud native telco</p>",
                                     "target": [
                                         "#takeover-subtitle"
                                     ]
                                 },
                                 {
-                                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/finserv-vmware-to-openstack?utm_medium=takeover&amp;utm_campaign=7014K000000UWDTQA4\" class=\"p-button--positive\">Download Now</a>",
+                                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/open-source-telco-infrastructure-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUX6\" class=\"p-button--positive\">Download whitepaper</a>",
                                     "target": [
                                         "#takeover-primary-url"
                                     ]
