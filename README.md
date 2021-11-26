@@ -23,6 +23,7 @@ Download the Chrome webdriver for your specific operating system and follow the 
 
 - Windows
   - Create a directory names `C:\bin`
+  - Download the chrome driver according to your chrome version from `https://chromedriver.chromium.org/downloads`
   - Save the Chrome webdriver downloaded to `C:\bin`
   - Open command prompt and set the `PATH` for your account
     `setx PATH "%PATH%;C:\bin"`
