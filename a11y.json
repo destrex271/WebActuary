@@ -381,7 +381,7 @@
                             "message": "Element's background color could not be determined due to a background gradient",
                             "relatedNodes": [
                                 {
-                                    "html": "<section data-lang=\"all\" id=\"takeover\" class=\"js-takeover p-takeover--grad\">",
+                                    "html": "<section data-lang=\"all\" id=\"takeover\" class=\"js-takeover p-takeover--k8s\">",
                                     "target": [
                                         "#takeover"
                                     ]
@@ -389,7 +389,7 @@
                             ]
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">How to increase developer productivity with Ubuntu Desktop</h1>",
+                    "html": "<h1 id=\"takeover-title\">MicroK8s on IBM Z \u2014 minimal footprint meets zero downtime</h1>",
                     "impact": "serious",
                     "none": [],
                     "target": [
@@ -414,7 +414,7 @@
                             "message": "Element's background color could not be determined due to a background gradient",
                             "relatedNodes": [
                                 {
-                                    "html": "<section data-lang=\"all\" id=\"takeover\" class=\"js-takeover p-takeover--grad\">",
+                                    "html": "<section data-lang=\"all\" id=\"takeover\" class=\"js-takeover p-takeover--k8s\">",
                                     "target": [
                                         "#takeover"
                                     ]
@@ -422,7 +422,7 @@
                             ]
                         }
                     ],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">A guide for CTOs, IT managers and sysadmins</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">A low-ops, minimal production Kubernetes on Ubuntu for your IBM Z/LinuxONE system.</p>",
                     "impact": "serious",
                     "none": [],
                     "target": [
@@ -8296,7 +8296,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"engage/webinar-microk8s-on-z?utm_medium=takeover&amp;utm_campaign=7014K000000UWDhQAO\" class=\"p-button--positive\">Register Now</a>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -8542,7 +8542,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"engage/webinar-microk8s-on-z?utm_medium=takeover&amp;utm_campaign=7014K000000UWDhQAO\" class=\"p-button--positive\">Register Now</a>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -8984,7 +8984,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<section data-lang=\"all\" id=\"takeover\" class=\"js-takeover p-takeover--grad\">",
+                    "html": "<section data-lang=\"all\" id=\"takeover\" class=\"js-takeover p-takeover--k8s\">",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9020,7 +9020,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">How to increase developer productivity with Ubuntu Desktop</h1>",
+                    "html": "<h1 id=\"takeover-title\">MicroK8s on IBM Z \u2014 minimal footprint meets zero downtime</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9038,7 +9038,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">A guide for CTOs, IT managers and sysadmins</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">A low-ops, minimal production Kubernetes on Ubuntu for your IBM Z/LinuxONE system.</p>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9056,7 +9056,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<div id=\"takeover-ctas\">\n        <p><a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a></p>\n        <p>\n          \n        </p>\n      </div>",
+                    "html": "<div id=\"takeover-ctas\">\n        <p><a id=\"takeover-primary-url\" href=\"engage/webinar-microk8s-on-z?utm_medium=takeover&amp;utm_campaign=7014K000000UWDhQAO\" class=\"p-button--positive\">Register Now</a></p>\n        <p>\n          \n        </p>\n      </div>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9074,7 +9074,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<img id=\"takeover-image\" src=\"https://assets.ubuntu.com/v1/e1d3143f-laptop.png\" width=\"486\" alt=\"\" height=\"259\">",
+                    "html": "<img id=\"takeover-image\" src=\"https://assets.ubuntu.com/v1/464f722a-microk8s-ibm-z-white.png\" width=\"631\" alt=\"\" height=\"172\">",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9250,7 +9250,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">How to increase developer productivity with Ubuntu Desktop</h1>",
+                    "html": "<h1 id=\"takeover-title\">MicroK8s on IBM Z \u2014 minimal footprint meets zero downtime</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9965,7 +9965,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">How to increase developer productivity with Ubuntu Desktop</h1>",
+                    "html": "<h1 id=\"takeover-title\">MicroK8s on IBM Z \u2014 minimal footprint meets zero downtime</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -11166,7 +11166,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">A guide for CTOs, IT managers and sysadmins</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">A low-ops, minimal production Kubernetes on Ubuntu for your IBM Z/LinuxONE system.</p>",
                     "impact": null,
                     "none": [
                         {
@@ -11184,7 +11184,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p><a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a></p>",
+                    "html": "<p><a id=\"takeover-primary-url\" href=\"engage/webinar-microk8s-on-z?utm_medium=takeover&amp;utm_campaign=7014K000000UWDhQAO\" class=\"p-button--positive\">Register Now</a></p>",
                     "impact": null,
                     "none": [
                         {
@@ -11202,7 +11202,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"engage/webinar-microk8s-on-z?utm_medium=takeover&amp;utm_campaign=7014K000000UWDhQAO\" class=\"p-button--positive\">Register Now</a>",
                     "impact": null,
                     "none": [
                         {
@@ -18160,7 +18160,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"engage/webinar-microk8s-on-z?utm_medium=takeover&amp;utm_campaign=7014K000000UWDhQAO\" class=\"p-button--positive\">Register Now</a>",
                     "impact": null,
                     "none": [
                         {
@@ -25996,7 +25996,7 @@
                             "message": "Page has at least one level-one heading",
                             "relatedNodes": [
                                 {
-                                    "html": "<h1 id=\"takeover-title\">How to increase developer productivity with Ubuntu Desktop</h1>",
+                                    "html": "<h1 id=\"takeover-title\">MicroK8s on IBM Z \u2014 minimal footprint meets zero downtime</h1>",
                                     "target": [
                                         "#takeover-title"
                                     ]
@@ -26082,7 +26082,7 @@
             ]
         }
     ],
-    "timestamp": "2021-11-26T13:59:07.960Z",
+    "timestamp": "2021-11-26T16:05:04.635Z",
     "url": "https://ubuntu.com/",
     "violations": [
         {
@@ -26299,19 +26299,19 @@
                             "message": "Some page content is not contained by landmarks",
                             "relatedNodes": [
                                 {
-                                    "html": "<h1 id=\"takeover-title\">How to increase developer productivity with Ubuntu Desktop</h1>",
+                                    "html": "<h1 id=\"takeover-title\">MicroK8s on IBM Z \u2014 minimal footprint meets zero downtime</h1>",
                                     "target": [
                                         "#takeover-title"
                                     ]
                                 },
                                 {
-                                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">A guide for CTOs, IT managers and sysadmins</p>",
+                                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">A low-ops, minimal production Kubernetes on Ubuntu for your IBM Z/LinuxONE system.</p>",
                                     "target": [
                                         "#takeover-subtitle"
                                     ]
                                 },
                                 {
-                                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a>",
+                                    "html": "<a id=\"takeover-primary-url\" href=\"engage/webinar-microk8s-on-z?utm_medium=takeover&amp;utm_campaign=7014K000000UWDhQAO\" class=\"p-button--positive\">Register Now</a>",
                                     "target": [
                                         "#takeover-primary-url"
                                     ]

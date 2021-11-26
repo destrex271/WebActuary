@@ -10,6 +10,7 @@ class WCAG_TESTER:
     def __init__(self, url):
         self.url = url
         self.folder_name = "wcag2"
+        self.tc = 0
         create_dir(self.folder_name)
 
     def find_all(self, a_str, sub):
@@ -31,7 +32,11 @@ class WCAG_TESTER:
         try:
             results = axe.run()
         except selenium.common.exceptions.TimeoutException:
-            self.validate()
+            if self.tc <= 3:
+                self.validate()
+                self.tc += 1
+            else:
+                return ""
         axe.write_results(results, 'a11y.json')
         driver.close()
 
