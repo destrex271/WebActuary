@@ -27,7 +27,7 @@ Download the Chrome webdriver for your specific operating system and follow the 
   - Download the chrome driver according to your chrome version from `https://chromedriver.chromium.org/downloads`
   - Extract the zip file and copy the chromedriver.exe file to `C:\bin`
   - Open command prompt and set the `PATH` for your account
-    `setx PATH "%PATH%;C:\bin"`
+    `setx PATH "%PATH%;C:\bin"`. Please run this command only once and not more than that as it might cause issues pertaining to environment variable. If you want to 
   - Restart Command prompt
   - Verify setup with `chromedriver.exe -v`
 - Linux

@@ -6,8 +6,10 @@ from alt_text import AltText
 from tab_index import TabIndex
 from wcag2 import WCAG_TESTER
 import final_report as fin
+from directory_create_module import create_dir
 
-fr = "final_report.txt"
+fr = ""
+folder = "reports"
 
 
 def run_program(url):
@@ -41,6 +43,7 @@ def run_program(url):
     print("Color Contrast Ratio Report generated !")
 
     # time.sleep(10)
+    fr = f"final_report_({fin.format_link(url)}).txt"
     disclaimer = "---------------------DISCLAIMER--------------------- \n\n" + f"This is an automatically generated audit report for the given url: {url}.\n"
     with open("assests/disclaimer.txt", 'r') as file:
         disclaimer += file.read() + "\n"
@@ -56,7 +59,8 @@ def run_program(url):
         tab_report = "Your website has a proper tab navigation!"
     if len(contrast_report.replace(" ", '')) == 0:
         contrast_report = "No violations were discovered in case of Contrast Ratios as per the W3C Guidelines!"
-    with open(f'{fr}', 'w') as file:
+    create_dir(f"{folder}")
+    with open(f'{folder}/{fr}', 'w') as file:
         st = disclaimer + "\n\n---------------------SSL REPORT---------------------\n" + ssl_text + "\n---------------------COOKIE REPORT---------------------\n" + ck_report + consent_report + "\n\n---------------------ALT TEXT---------------------\n\n" + alt_report + "\n\n---------------------TAB NAVIGATION---------------------\n\n" + tab_report + "\n\n---------------------COLOR CONTRAST---------------------\n\n" + contrast_report + "\n\n"
         file.write(st)
     print("Decluttering.....")
@@ -65,7 +69,9 @@ def run_program(url):
     declutter(alt_text_mod)
     declutter(tab_index_mod)
     declutter(w_mod)
-    print(f"Final Report generated as a text file at {os.path.abspath(os.getcwd())} with the name: {fr}")
+    print(f"Final Report generated as a text file at {os.path.abspath(os.getcwd())}\{folder} with the name: {fr}")
+
+    return True
 
 
 def declutter(mod):
@@ -73,7 +79,7 @@ def declutter(mod):
 
 
 if __name__ == "__main__":
-    print("\t\t-----------------------")
-    print("\t\t Welcome to WebActuary ")
-    print("\t\t-----------------------")
+    print("\t\t\t-----------------------")
+    print("\t\t\t Welcome to WebActuary ")
+    print("\t\t\t-----------------------")
     run_program(input("Enter Url to audit > "))

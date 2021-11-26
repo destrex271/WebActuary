@@ -1,3 +1,4 @@
+import selenium.common.exceptions
 from selenium import webdriver
 from axe_selenium_python import Axe
 from driver_solver import get_driver_path
@@ -27,7 +28,10 @@ class WCAG_TESTER:
         driver.get(f"{self.url}")
         axe = Axe(driver)
         axe.inject()
-        results = axe.run()
+        try:
+            results = axe.run()
+        except selenium.common.exceptions.TimeoutException:
+            self.validate()
         axe.write_results(results, 'a11y.json')
         driver.close()
 

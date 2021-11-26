@@ -144,7 +144,7 @@ def tab_index():
         mx = file.read().decode('utf-8')
         mx = str(mx)
         if len(mx.strip()) > 0:
-            tx = f"Your Website isn't tab indexed properly.\nYou are requested to use the global attribute 'tabindex' in <a> <button> <input> and other such elements that you might consider essential for navigation via a Keyboard on your website! Please take a look at {link} for more information!"
+            tx = f"Your Website isn't tab indexed properly.\nYou are requested to use the global attribute 'tabindex' in <a> <button> <input> and other such elements that you might consider essential for navigation via a Keyboard on your website!\n Please take a look at {link} for more information!"
     return tx
 
 

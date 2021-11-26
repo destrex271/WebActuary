@@ -389,7 +389,7 @@
                             ]
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
+                    "html": "<h1 id=\"takeover-title\">How to increase developer productivity with Ubuntu Desktop</h1>",
                     "impact": "serious",
                     "none": [],
                     "target": [
@@ -422,7 +422,7 @@
                             ]
                         }
                     ],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">In this white paper, we will review seven techniques that can help to reduce latency in high volume, low criticality Kafka solutions running on Kubernetes.</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">A guide for CTOs, IT managers and sysadmins</p>",
                     "impact": "serious",
                     "none": [],
                     "target": [
@@ -604,6 +604,58 @@
                             "relatedNodes": []
                         }
                     ],
+                    "html": "<time datetime=\"26 November 2021\" class=\"article-time\">26 November 2021</time>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "time[datetime=\"\\32 6\\ November\\ 2021\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": null,
+                                "contrastRatio": 0,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#0066cc",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "normal",
+                                "missingData": "outsideViewport"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element's background color could not be determined because it's outside the viewport",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/craft-parts-reusable-code-snapcraft-style\">Craft Parts \u2013 Reusable code, Snapcraft style</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".col-3:nth-child(1) > .p-heading--five > .article-link.article-title"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": null,
+                                "contrastRatio": 0,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": null,
+                                "fontSize": "9.2pt",
+                                "fontWeight": "normal",
+                                "missingData": "outsideViewport"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element's background color could not be determined because it's outside the viewport",
+                            "relatedNodes": []
+                        }
+                    ],
                     "html": "<time datetime=\"25 November 2021\" class=\"article-time\">25 November 2021</time>",
                     "impact": "serious",
                     "none": [],
@@ -634,58 +686,6 @@
                     "impact": "serious",
                     "none": [],
                     "target": [
-                        ".col-3:nth-child(1) > .p-heading--five > .article-link.article-title"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": null,
-                                "contrastRatio": 0,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": null,
-                                "fontSize": "9.2pt",
-                                "fontWeight": "normal",
-                                "missingData": "outsideViewport"
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element's background color could not be determined because it's outside the viewport",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<time datetime=\"24 November 2021\" class=\"article-time\">24 November 2021</time>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
-                        ".col-3:nth-child(2) > .p-muted-heading.u-no-margin--bottom > time[datetime=\"\\32 4\\ November\\ 2021\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
-                            "data": {
-                                "bgColor": null,
-                                "contrastRatio": 0,
-                                "expectedContrastRatio": "4.5:1",
-                                "fgColor": "#0066cc",
-                                "fontSize": "12.0pt",
-                                "fontWeight": "normal",
-                                "missingData": "outsideViewport"
-                            },
-                            "id": "color-contrast",
-                            "impact": "serious",
-                            "message": "Element's background color could not be determined because it's outside the viewport",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
-                    "impact": "serious",
-                    "none": [],
-                    "target": [
                         ".col-3:nth-child(2) > .p-heading--five > .article-link.article-title"
                     ]
                 },
@@ -712,7 +712,7 @@
                     "impact": "serious",
                     "none": [],
                     "target": [
-                        ".col-3:nth-child(3) > .p-muted-heading.u-no-margin--bottom > time[datetime=\"\\32 4\\ November\\ 2021\"]"
+                        "time[datetime=\"\\32 4\\ November\\ 2021\"]"
                     ]
                 },
                 {
@@ -734,11 +734,11 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
                     "impact": "serious",
                     "none": [],
                     "target": [
-                        "a[href$=\"what-is-embedded-linux\"]"
+                        ".col-3:nth-child(3) > .p-heading--five > .article-link.article-title"
                     ]
                 },
                 {
@@ -8296,7 +8296,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -8542,7 +8542,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9020,7 +9020,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
+                    "html": "<h1 id=\"takeover-title\">How to increase developer productivity with Ubuntu Desktop</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9038,7 +9038,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">In this white paper, we will review seven techniques that can help to reduce latency in high volume, low criticality Kafka solutions running on Kubernetes.</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">A guide for CTOs, IT managers and sysadmins</p>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9056,7 +9056,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<div id=\"takeover-ctas\">\n        <p><a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a></p>\n        <p>\n          \n        </p>\n      </div>",
+                    "html": "<div id=\"takeover-ctas\">\n        <p><a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a></p>\n        <p>\n          \n        </p>\n      </div>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9074,7 +9074,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<img id=\"takeover-image\" src=\"https://assets.ubuntu.com/v1/a70bfab2-Managed-apps_wht.svg\" width=\"350\" alt=\"\" height=\"200\">",
+                    "html": "<img id=\"takeover-image\" src=\"https://assets.ubuntu.com/v1/e1d3143f-laptop.png\" width=\"486\" alt=\"\" height=\"259\">",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9250,7 +9250,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
+                    "html": "<h1 id=\"takeover-title\">How to increase developer productivity with Ubuntu Desktop</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9322,7 +9322,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a></h2>",
+                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/craft-parts-reusable-code-snapcraft-style\">Craft Parts \u2013 Reusable code, Snapcraft style</a></h2>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9340,7 +9340,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a></h2>",
+                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a></h2>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9358,7 +9358,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a></h2>",
+                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a></h2>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -9965,7 +9965,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
+                    "html": "<h1 id=\"takeover-title\">How to increase developer productivity with Ubuntu Desktop</h1>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -10037,7 +10037,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a></h2>",
+                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/craft-parts-reusable-code-snapcraft-style\">Craft Parts \u2013 Reusable code, Snapcraft style</a></h2>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -10055,7 +10055,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a></h2>",
+                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a></h2>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -10073,7 +10073,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a></h2>",
+                    "html": "<h2 class=\"p-heading--five\"><a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a></h2>",
                     "impact": null,
                     "none": [],
                     "target": [
@@ -11166,7 +11166,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">In this white paper, we will review seven techniques that can help to reduce latency in high volume, low criticality Kafka solutions running on Kubernetes.</p>",
+                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">A guide for CTOs, IT managers and sysadmins</p>",
                     "impact": null,
                     "none": [
                         {
@@ -11184,7 +11184,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p><a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a></p>",
+                    "html": "<p><a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a></p>",
                     "impact": null,
                     "none": [
                         {
@@ -11202,7 +11202,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a>",
                     "impact": null,
                     "none": [
                         {
@@ -11418,7 +11418,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p class=\"u-no-margin--bottom p-muted-heading\"><time datetime=\"25 November 2021\" class=\"article-time\">25 November 2021</time></p>",
+                    "html": "<p class=\"u-no-margin--bottom p-muted-heading\"><time datetime=\"26 November 2021\" class=\"article-time\">26 November 2021</time></p>",
                     "impact": null,
                     "none": [
                         {
@@ -11436,7 +11436,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/craft-parts-reusable-code-snapcraft-style\">Craft Parts \u2013 Reusable code, Snapcraft style</a>",
                     "impact": null,
                     "none": [
                         {
@@ -11454,7 +11454,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<p class=\"u-no-margin--bottom p-muted-heading\"><time datetime=\"24 November 2021\" class=\"article-time\">24 November 2021</time></p>",
+                    "html": "<p class=\"u-no-margin--bottom p-muted-heading\"><time datetime=\"25 November 2021\" class=\"article-time\">25 November 2021</time></p>",
                     "impact": null,
                     "none": [
                         {
@@ -11472,7 +11472,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a>",
                     "impact": null,
                     "none": [
                         {
@@ -11508,7 +11508,7 @@
                 {
                     "all": [],
                     "any": [],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
                     "impact": null,
                     "none": [
                         {
@@ -11520,7 +11520,7 @@
                         }
                     ],
                     "target": [
-                        "a[href$=\"what-is-embedded-linux\"]"
+                        ".col-3:nth-child(3) > .p-heading--five > .article-link.article-title"
                     ]
                 },
                 {
@@ -18160,7 +18160,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
+                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a>",
                     "impact": null,
                     "none": [
                         {
@@ -18264,7 +18264,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/craft-parts-reusable-code-snapcraft-style\">Craft Parts \u2013 Reusable code, Snapcraft style</a>",
                     "impact": null,
                     "none": [
                         {
@@ -18290,7 +18290,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a>",
                     "impact": null,
                     "none": [
                         {
@@ -18316,7 +18316,7 @@
                             "relatedNodes": []
                         }
                     ],
-                    "html": "<a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a>",
+                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
                     "impact": null,
                     "none": [
                         {
@@ -18328,7 +18328,7 @@
                         }
                     ],
                     "target": [
-                        "a[href$=\"what-is-embedded-linux\"]"
+                        ".col-3:nth-child(3) > .p-heading--five > .article-link.article-title"
                     ]
                 },
                 {
@@ -25996,7 +25996,7 @@
                             "message": "Page has at least one level-one heading",
                             "relatedNodes": [
                                 {
-                                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
+                                    "html": "<h1 id=\"takeover-title\">How to increase developer productivity with Ubuntu Desktop</h1>",
                                     "target": [
                                         "#takeover-title"
                                     ]
@@ -26082,7 +26082,7 @@
             ]
         }
     ],
-    "timestamp": "2021-11-26T07:14:45.078Z",
+    "timestamp": "2021-11-26T13:59:07.960Z",
     "url": "https://ubuntu.com/",
     "violations": [
         {
@@ -26299,19 +26299,19 @@
                             "message": "Some page content is not contained by landmarks",
                             "relatedNodes": [
                                 {
-                                    "html": "<h1 id=\"takeover-title\">7 approaches to accelerating Apache Kafka on K8s</h1>",
+                                    "html": "<h1 id=\"takeover-title\">How to increase developer productivity with Ubuntu Desktop</h1>",
                                     "target": [
                                         "#takeover-title"
                                     ]
                                 },
                                 {
-                                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">In this white paper, we will review seven techniques that can help to reduce latency in high volume, low criticality Kafka solutions running on Kubernetes.</p>",
+                                    "html": "<p class=\"p-heading--four\" id=\"takeover-subtitle\">A guide for CTOs, IT managers and sysadmins</p>",
                                     "target": [
                                         "#takeover-subtitle"
                                     ]
                                 },
                                 {
-                                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/7-approaches-accelerating-kafka-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UUacQAG\" class=\"p-button--positive\">Download Now</a>",
+                                    "html": "<a id=\"takeover-primary-url\" href=\"/engage/developer-desktop-productivity-whitepaper?utm_medium=takeover&amp;utm_campaign=7014K000000UWs0QAG\" class=\"p-button--positive\">Download Now</a>",
                                     "target": [
                                         "#takeover-primary-url"
                                     ]
@@ -26383,6 +26383,18 @@
                                     ]
                                 },
                                 {
+                                    "html": "<time datetime=\"26 November 2021\" class=\"article-time\">26 November 2021</time>",
+                                    "target": [
+                                        "time[datetime=\"\\32 6\\ November\\ 2021\"]"
+                                    ]
+                                },
+                                {
+                                    "html": "<a class=\"article-link article-title\" href=\"/blog/craft-parts-reusable-code-snapcraft-style\">Craft Parts \u2013 Reusable code, Snapcraft style</a>",
+                                    "target": [
+                                        ".col-3:nth-child(1) > .p-heading--five > .article-link.article-title"
+                                    ]
+                                },
+                                {
                                     "html": "<time datetime=\"25 November 2021\" class=\"article-time\">25 November 2021</time>",
                                     "target": [
                                         "time[datetime=\"\\32 5\\ November\\ 2021\"]"
@@ -26391,31 +26403,19 @@
                                 {
                                     "html": "<a class=\"article-link article-title\" href=\"/blog/linux-gaming-with-ubuntu-desktop-steam-and-proton\">Linux Gaming with Ubuntu Desktop Part 1: Steam &amp; Proton</a>",
                                     "target": [
-                                        ".col-3:nth-child(1) > .p-heading--five > .article-link.article-title"
-                                    ]
-                                },
-                                {
-                                    "html": "<time datetime=\"24 November 2021\" class=\"article-time\">24 November 2021</time>",
-                                    "target": [
-                                        ".col-3:nth-child(2) > .p-muted-heading.u-no-margin--bottom > time[datetime=\"\\32 4\\ November\\ 2021\"]"
-                                    ]
-                                },
-                                {
-                                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
-                                    "target": [
                                         ".col-3:nth-child(2) > .p-heading--five > .article-link.article-title"
                                     ]
                                 },
                                 {
                                     "html": "<time datetime=\"24 November 2021\" class=\"article-time\">24 November 2021</time>",
                                     "target": [
-                                        ".col-3:nth-child(3) > .p-muted-heading.u-no-margin--bottom > time[datetime=\"\\32 4\\ November\\ 2021\"]"
+                                        "time[datetime=\"\\32 4\\ November\\ 2021\"]"
                                     ]
                                 },
                                 {
-                                    "html": "<a class=\"article-link article-title\" href=\"/blog/what-is-embedded-linux\">What is embedded Linux? Part I</a>",
+                                    "html": "<a class=\"article-link article-title\" href=\"/blog/kubernetes-testing-microk8s-1-23-release-candidate\">Kubernetes 1.23 rc testing with MicroK8s</a>",
                                     "target": [
-                                        "a[href$=\"what-is-embedded-linux\"]"
+                                        ".col-3:nth-child(3) > .p-heading--five > .article-link.article-title"
                                     ]
                                 },
                                 {
