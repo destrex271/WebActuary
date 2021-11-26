@@ -73,4 +73,7 @@ def declutter(mod):
 
 
 if __name__ == "__main__":
+    print("\t\t-----------------------")
+    print("\t\t Welcome to WebActuary ")
+    print("\t\t-----------------------")
     run_program(input("Enter Url to audit > "))

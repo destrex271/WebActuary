@@ -1,4 +1,4 @@
-# Web Crawler #
+# Web Actuary #
 ### A simple console tool to check the accessibility issues of your website ###
 
 This tool prepares a report based for the given url based of on these parameters:
