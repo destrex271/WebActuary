@@ -17,6 +17,18 @@ Chrome Web Browser is an absolute requirement for this tool to work properly.
 
 Python Version 3.3+ is required for this tool.
 
+Chrome Web Driver:
+
+Download the Chrome webdriver for your specific operating system and follow the steps accordingly.
+
+- Windows
+  - Create a directory names `C:\bin`
+  - Save the Chrome webdriver downloaded to `C:\bin`
+  - Open command prompt and set the `PATH` for your account
+    `setx PATH "%PATH%;C:\bin"`
+  - Restart Command prompt
+  - Verify setup with `chromedriver.exe -v`
+
 The python libraries required for this tool are:
 
     requests

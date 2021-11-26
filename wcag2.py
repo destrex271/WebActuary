@@ -23,7 +23,7 @@ class WCAG_TESTER:
         op = webdriver.ChromeOptions()
         op.add_argument("--log-level=3")
         op.add_argument("--headless")
-        driver = webdriver.Chrome(executable_path=get_driver_path(), options=op)
+        driver = webdriver.Chrome(options=op)
         driver.get(f"{self.url}")
         axe = Axe(driver)
         axe.inject()
