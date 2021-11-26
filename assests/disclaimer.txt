@@ -4,7 +4,9 @@ This report contains information on :
 
 	1. Ssl certificate of the url.
 	2. Cookie/privacy policy.
-	3. Wheteher or not the user's permission was taken for using cookies.
+	3. Whether or not the user's permission was taken for using cookies.
 	4. Adherence with ADA Compliance.
 
 Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.
+Also please note that this report only lists the violations in compliance apart from general information along with the fixes.
+If there is nothing mentioned under a category it means that your website passed those tests.

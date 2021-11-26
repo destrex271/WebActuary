@@ -73,6 +73,19 @@ ___You Can install these dependencies manually using pip or you can use the depe
   ![Running bat](https://i.imgur.com/u8HcruS.png)
   ![Finished bat](https://i.imgur.com/fIGHkb4.png)
 
+- ### Linux ###
+    Navigate to the `linux` folder under `WebActuary-main/` and run the following commands:
+
+  - `sudo chmod +x dependencies.sh`
+  - `sudo chmod +x begin_audit.sh`
+    
+  Run the dependencies file as `./dependencies.sh`
+
+    ![Dependency Ubuntu](https://i.imgur.com/Jh0TEKy.png)
+  
+    To begin the Audit process run the begin_audit file as `begin_audit.sh`
+    ![Begin Audit Ubuntu](https://i.imgur.com/vJiuqyK.png)
+
 
 
 ## Known Issues ##
