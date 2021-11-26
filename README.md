@@ -22,8 +22,8 @@ Chrome Web Driver:
 Download the Chrome webdriver for your specific operating system and follow the steps accordingly.
 
 - Windows
-  - Create a directory names `C:\bin`
-  - Check your chrome browser version from `Menu>Help>About Chrome` from google chrome brwoser.(it would be a number like 96.0.445.0 etc)
+  - Create a directory name `C:\bin`
+  - Check your chrome browser version from `Menu>Help>About Chrome` from google chrome browser.(it would be a number like 96.0.445.0 etc)
   - Download the chrome driver according to your chrome version from `https://chromedriver.chromium.org/downloads`
   - Extract the zip file and copy the chromedriver.exe file to `C:\bin`
   - Open command prompt and set the `PATH` for your account
@@ -35,7 +35,6 @@ Download the Chrome webdriver for your specific operating system and follow the 
   - Download the chrome webdriver according to the chrome version from `https://chromedriver.chromium.org/downloads`
   - Unzip the folder and copy the `chromedriver` file to `/usr/bin/chromedriver` by `sudo mv chromedriver /usr/bin/chromedriver`
   - Run these commands to make it executable `sudo chown root:root /usr/bin/chromedriver` and `sudo chmod +x /usr/bin/chromedriver`
-  - 
 
 The python libraries required for this tool are:
 
