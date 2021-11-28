@@ -56,6 +56,7 @@ The python libraries required for this tool are:
     pyqt5
     PyQtWebEngine
     validators
+    pysimplegui
 
 ___You Can install these dependencies manually using pip or you can use the dependency scripts as mentioned below.___
 
