@@ -70,8 +70,8 @@ ___You Can install these dependencies manually using pip or you can use the depe
   
   'begin_audit.bat' file is the main file that can be used to run this tool.
   
-  ![Running bat](https://i.imgur.com/u8HcruS.png)
-  ![Finished bat](https://i.imgur.com/fIGHkb4.png)
+  ![Running bat](https://i.imgur.com/lrqcRLT.png)
+  ![Finished bat](https://i.imgur.com/hX20xHQ.png)
 
 - ### Linux ###
     Navigate to the `linux` folder under `WebActuary-main/` and run the following commands:
@@ -100,3 +100,4 @@ ___You Can install these dependencies manually using pip or you can use the depe
 - If you face an error like:
       This version of ChromeDriver only supports Chrome version X.
       Please download the suitable driver from https://chromedriver.chromium.org/downloads according to the version as seen in the error according to your operating system.
+- If the program enters the 'not responding' mode kinldy wait  for a few seconds.
