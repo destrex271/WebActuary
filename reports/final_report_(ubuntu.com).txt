@@ -7,10 +7,12 @@ This report contains information on :
 
 	1. Ssl certificate of the url.
 	2. Cookie/privacy policy.
-	3. Wheteher or not the user's permission was taken for using cookies.
+	3. Whether or not the user's permission was taken for using cookies.
 	4. Adherence with ADA Compliance.
 
 Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.
+Also please note that this report only lists the violations in compliance apart from general information along with the fixes.
+If there is nothing mentioned under a category it means that your website passed those tests.
 
 
 
@@ -21,20 +23,20 @@ Issued To - ubuntu.com
 Issued by :
  	country name :  US	organization name :  "Lets Encrypt"	common name :  R3
 
-Valid From : Nov 10 08:20:36 2021 UTC
-Valid Upto : Feb  8 08:20:35 2022 UTC
+Valid From : Sep 17 10:50:43 2021 UTC
+Valid Upto : Dec 16 10:50:42 2021 UTC
 
 ---------------------COOKIE REPORT---------------------
 
 COOKIES DETECTED : 
 
 	Domain : .ubuntu.com
-		Expires On : 2021-11-26 07:14:47.414850 UTC
-		Value : GA1.2.991850680.1637910863
+		Expires On : 2021-11-27 17:15:26.984039 UTC
+		Value : GA1.2.1715895897.1638033271
 		Send For : For All Connections
 	Domain : .ubuntu.com
-		Expires On : 2021-11-26 07:14:47.414850 UTC
-		Value : GA1.2.165902753.1637910863
+		Expires On : 2021-11-27 17:15:26.984039 UTC
+		Value : GA1.2.2008309392.1638033271
 		Send For : For All Connections
 
 
@@ -48,7 +50,8 @@ No Violations were discovered in case of Image accessibility!
 ---------------------TAB NAVIGATION---------------------
 
 Your Website isn't tab indexed properly.
-You are requested to use the global attribute 'tabindex' in <a> <button> <input> and other such elements that you might consider essential for navigation via a Keyboard on your website! Please take a look at https://webaim.org/techniques/keyboard/tabindex for more information!
+You are requested to use the global attribute 'tabindex' in <a> <button> <input> and other such elements that you might consider essential for navigation via a Keyboard on your website!
+ Please take a look at https://webaim.org/techniques/keyboard/tabindex for more information!
 
 ---------------------COLOR CONTRAST---------------------
 
