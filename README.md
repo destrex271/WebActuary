@@ -84,7 +84,7 @@ ___You Can install these dependencies manually using pip or you can use the depe
 
     ![Dependency Ubuntu](https://i.imgur.com/Jh0TEKy.png)
   
-    To begin the Audit process run the begin_audit file as `begin_audit.sh`
+    To begin the Audit process run the begin_audit file as `./begin_audit.sh`
     ![Begin Audit Ubuntu](https://i.imgur.com/vJiuqyK.png)
 
 
