@@ -4,6 +4,7 @@ from selenium_cookies import CatCookie
 from cookie_acceptance import CookieConsent
 from validate_url import is_valid
 from catg_cookie import CatgCookie
+from final_report import format_link
 
 
 class CookieModule:
@@ -28,12 +29,17 @@ class CookieModule:
                 policy_link
             """
             vd = False
+            c = ["/privacy", "/privacy-policy", "/privacy-settings"]
+            for kw in c:
+                if kw == dc["policy_link"]:
+                    dc["policy_link"] = "https://" + format_link(self.url) + f"{kw}"
             if dc['policy_link'].__contains__('privacy'):
-                dc['has_policy'] = False
+                dc['has_policy'] = True
             if len(dc["policy_link"].strip()) == 0:
                 vd = False
             elif is_valid(dc["policy_link"]) == True:
                 vd = True
+
             self.final_dict = {
                 "has_policy": dc["has_policy"],
                 "did_accept": dc["did_accept"],
@@ -49,7 +55,7 @@ class CookieModule:
                 "is_policy_valid": False,
                 'total_cookies': 0
             }
-
+        print(self.final_dict)
 
     def conv_to_json(self):
         json_obj = json.dumps(self.final_dict)
@@ -70,3 +76,12 @@ class CookieModule:
         cg = CatgCookie(url=self.url, folder=self.folder_name)
         cg.cat_cook()
         cg.conv_to_json()
+
+
+"""c = CookieModule(input())
+print("w")
+c.gen_all_json()
+print("s")
+c.conv_to_json()
+print(c)
+print(cookie_consent())"""

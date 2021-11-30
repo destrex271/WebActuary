@@ -106,7 +106,7 @@ def cookie_consent():
         with open('cookies/cookie_consent.json') as file:
             cookie_dict = json.load(file)
             p_link = cookie_dict['policy_link']
-            if p_link.__contains__('http'):
+            if p_link.__contains__('http') or p_link.__contains__('/privacy'):
                 consent += f"\n\nPolicy Link : {p_link}"
                 if cookie_dict['did_accept']:
                     consent += "\nUser's Consent was taken!"

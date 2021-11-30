@@ -5,6 +5,7 @@ from PyQt5.QtWebEngineWidgets import QWebEnginePage
 from PyQt5.QtWidgets import QApplication
 
 
+
 class Page(QWebEnginePage):
     def __init__(self, url):
         self.app = QApplication(sys.argv)
@@ -52,7 +53,7 @@ class Modal:
                 self.has_policy = True
                 final_list.append(button)
             elif tx.__contains__("accept") or tx.__contains__("cookies") or tx.__contains__(
-                    "cookie") or (tx.__contains__("manage") and tx.__contains__("cookies")):
+                    "cookie") or (tx.__contains__("manage") and tx.__contains__("cookies")) or (tx.__contains__("ok") or tx.__contains__("yes") or tx.__contains__("got") or tx.__contains__("okay") or tx.__contains__("agree")):
                 self.did_accept = True
                 final_list.append(button)
         return final_list
