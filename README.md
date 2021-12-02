@@ -71,6 +71,7 @@ ___You Can install these dependencies manually using pip or you can use the depe
   'dependencies.bat' file can be used to install all the libraries required for this tool to work.
   
   'begin_audit.bat' file is the main file that can be used to run this tool.
+  You can also select a text file containing all your urls in seperate lines to run multiple tests.
   
   ![Running bat](https://i.imgur.com/lrqcRLT.png)
   ![Finished bat](https://i.imgur.com/hX20xHQ.png)
@@ -86,6 +87,7 @@ ___You Can install these dependencies manually using pip or you can use the depe
     ![Dependency Ubuntu](https://i.imgur.com/Jh0TEKy.png)
   
     To begin the Audit process run the begin_audit file as `./begin_audit.sh`
+    You can also select a text file containing all your urls in seperate lines to run multiple tests.
     ![Begin Audit Ubuntu](https://i.imgur.com/vJiuqyK.png)
 
 
