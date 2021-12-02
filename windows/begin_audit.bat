@@ -1,3 +1,3 @@
 cd ..
-python main2.py
-set /p asd="Hit enter to continue"
+python main3.py
+set /p asd="Hit enter to continue....."

@@ -27,10 +27,11 @@ class TabIndex:
         st = ""
         for item in self.final_list:
             st += item + "\n"
-        self.write_to_file(st.encode("utf-8"))
+        #print(st)
+        self.write_to_file(st)
+
 
     def write_to_file(self, content):
-        with open(f"{self.folder_name}/tab_index.txt", "wb") as file:
-            file.write(content)
-            file.close()
 
+        with open(f'{self.folder_name}/tab_index.txt', "w", encoding="utf-8") as f:
+            f.write(content)

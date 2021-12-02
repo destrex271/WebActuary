@@ -29,6 +29,7 @@ class WCAG_TESTER:
         driver.get(f"{self.url}")
         axe = Axe(driver)
         axe.inject()
+        results = ""
         try:
             results = axe.run()
         except selenium.common.exceptions.TimeoutException:
@@ -48,7 +49,10 @@ class WCAG_TESTER:
             fina = ""
             for i in m:
                 y = t[i:]
-                fina += "\n" + y[:y.index("Rule")]
+                try:
+                    fina += "\n" + y[:y.index("Rule")]
+                except:
+                    fina = ""
             return fina
         return "Problem!"
 

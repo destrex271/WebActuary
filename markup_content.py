@@ -1,3 +1,7 @@
+import sys
+import time
+
+import requests.exceptions
 from requests import get
 from bs4 import BeautifulSoup
 import ssl
@@ -14,6 +18,7 @@ class MarkupContent:
     def get_markup_content(self):
         try:
             response = get(self.url)
+
         except ConnectionError:
             if self.ls <= 3:
                 self.get_markup_content()
@@ -30,5 +35,3 @@ class MarkupContent:
         y = self.get_markup_content().prettify()
         list_num = [item for item in range(0, len(y.splitlines()))]
         return list_num
-
-

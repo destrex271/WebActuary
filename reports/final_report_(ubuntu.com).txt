@@ -1,0 +1,29 @@
+---------------------DISCLAIMER--------------------- 
+
+This is an automatically generated audit report for the given url: https://ubuntu.com/.
+
+This is an automatically generated audit report for the given url.
+This report contains information on :
+
+	1. Ssl certificate of the url.
+	2. Cookie/privacy policy.
+	3. Whether or not the user's permission was taken for using cookies.
+	4. Adherence with ADA Compliance.
+
+Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.
+Also please note that this report only lists the violations in compliance apart from general information along with the fixes.
+If there is nothing mentioned under a category it means that your website passed those tests.
+
+
+
+---------------------SSL REPORT---------------------
+
+Issued To - ubuntu.com
+
+Issued by :
+ 	country name :  US	organization name :  "Lets Encrypt"	common name :  R3
+
+Valid From : Sep 17 10:50:43 2021 UTC
+Valid Upto : Dec 16 10:50:42 2021 UTC
+
+

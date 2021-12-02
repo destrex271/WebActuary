@@ -125,9 +125,8 @@ def cookie_consent():
 def alt_img():
     tx = ""
     link = "https://webaim.org/techniques/alttext/"
-    with open("alt_text/alt_text.txt", 'rb') as file:
-        mx = file.read().decode('utf-8')
-        mx = str(mx)
+    with open("alt_text/alt_text.txt", 'r') as file:
+        mx = file.read()
         if len(mx.strip()) > 0:
             tx = f"The Following <img> tags do not have an 'alt-text' attribute as in accordance with ADA Compliance Guidelines : \n\n" + mx + f"\n\nYOU ARE SUGGESTED TO ADD THE 'alt' ATTRIBUTE TO THESE ELEMENTS TO IMPROVE THE ACCESSIBILITY OF YOUR WEBSITE!\nPLEASE TAKE A LOOK AT THIS RESOURCE TO SOLVE YOUR PROBLEM :\n{link} "
     return tx
@@ -140,11 +139,19 @@ def alt_img():
 def tab_index():
     tx = ""
     link = "https://webaim.org/techniques/keyboard/tabindex"
-    with open("tab_index/tab_index.txt", 'rb') as file:
-        mx = file.read().decode('utf-8')
+    with open("tab_index/tab_index.txt", 'r', encoding="utf-8") as file:
+        mx = file.read()
         mx = str(mx)
-        if len(mx.strip()) > 0:
-            tx = f"Your Website isn't tab indexed properly.\nYou are requested to use the global attribute 'tabindex' in <a> <button> <input> and other such elements that you might consider essential for navigation via a Keyboard on your website!\n Please take a look at {link} for more information!"
+        print(len(mx))
+        if len(mx) > 0:
+            tx = f"\nYour Website isn't tab indexed properly.\nYou are requested to use the global attribute 'tabindex' in : \n\n "+ mx +f" \n\n Please take a look at {link} for more information!"
+        else:
+            tx = "\nHooray! Your website is tab indexed properly."
+    '''with open("tab_index/tab_index.txt", 'r', encoding='utf-8') as file:
+        mx = file.read()
+        mx = ""
+        print(len(mx))
+        tx = f"Your Website isn't tab indexed properly.\n\n{mx}\n\nYou are requested to use the global attribute 'tabindex' in <a> <button> <input> and other such elements that you might consider essential for navigation via a Keyboard on your website!\nPlease take a look at {link} for more information!" '''
     return tx
 
 

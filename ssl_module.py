@@ -2,6 +2,7 @@ import ssl
 from directory_create_module import create_dir
 from ssl import SSLError
 import json
+import socket
 
 
 class SSLModule:
@@ -41,13 +42,29 @@ class SSLModule:
         tx = ""
 
         try:
-            encrypted_ssl_cert = ssl.get_server_certificate(addr=self.server_add)
+            host = self.format_link()
+            port = 443
+            context = ssl.create_default_context()
+            conn = context.wrap_socket(
+                socket.socket(socket.AF_INET),
+                server_hostname=host,
+            )
+            # 3 second timeout because Lambda has runtime limitations
+            conn.settimeout(3.0)
+            conn.connect((host, port))
+            ssl_info = conn.getpeercert()
+            with open("ssl_certificates/ssl.json","w") as file:
+                json_obj = json.dumps(ssl_info)
+                file.write(json_obj)
+                file.close()
+            '''encrypted_ssl_cert = ssl.get_server_certificate(addr=self.server_add)
             self.write_to_file("cert.pem", encrypted_ssl_cert)
             self.conv_to_json("cert.pem")
-        except ssl.SSLEOFError:
+            except ssl.SSLEOFError:
             tx = "Your Website possess a Valid ssl Certificate but we are not able to analyze it !"
             self.write_to_file("ssl.txt", tx)
-            self.write_to_file("ssl.json", tx)
+            self.write_to_file("ssl.json", tx)'''
+
         except SSLError:
             tx = "Your website does not possess a valid SSL Certificate"
             self.write_to_file("ssl.txt", tx)
@@ -75,7 +92,7 @@ class SSLModule:
             f.write(content)
             f.close()
 
-    def conv_to_json(self, file):
+    '''def conv_to_json(self, file):
         ordered_dict = ssl._ssl._test_decode_cert(f"{self.folder_name}/{file}")
         json_obj = json.dumps(ordered_dict)
-        self.write_to_file("ssl.json", json_obj)
+        self.write_to_file("ssl.json", json_obj)'''

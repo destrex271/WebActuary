@@ -5,7 +5,6 @@ from PyQt5.QtWebEngineWidgets import QWebEnginePage
 from PyQt5.QtWidgets import QApplication
 
 
-
 class Page(QWebEnginePage):
     def __init__(self, url):
         self.app = QApplication(sys.argv)
@@ -43,17 +42,18 @@ class Modal:
                 self.has_policy = True
                 self.policy_link = link["href"]
                 final_list.append(link)
-            elif tx.__contains__("accept") and link.has_attr("href") and len(link["href"]) != 0 or (tx.__contains__("manage") and tx.__contains__("cookies")):
+            if tx.__contains__("accept") and link.has_attr("href") and len(link["href"]) != 0 or (tx.__contains__("manage") and tx.__contains__("cookies")) or (tx.__contains__("user") and tx.__contains__("agreement")):
                 self.did_accept = True
                 final_list.append(link)
 
         for button in button_list:
             tx = button.text.lower()
+            #print(tx)
             if (tx.__contains__("cookies") or tx.__contains__("privacy")) and tx.__contains__("policy"):
                 self.has_policy = True
                 final_list.append(button)
-            elif tx.__contains__("accept") or tx.__contains__("cookies") or tx.__contains__(
-                    "cookie") or (tx.__contains__("manage") and tx.__contains__("cookies")) or (tx.__contains__("ok") or tx.__contains__("yes") or tx.__contains__("got") or tx.__contains__("okay") or tx.__contains__("agree")):
+            if tx.__contains__("accept") or tx.__contains__("agree") or tx.__contains__("cookies") or tx.__contains__(
+                    "cookie") or (tx.__contains__("manage") and tx.__contains__("cookies") or tx.__contains__("understand")):
                 self.did_accept = True
                 final_list.append(button)
         return final_list

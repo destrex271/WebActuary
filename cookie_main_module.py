@@ -55,7 +55,7 @@ class CookieModule:
                 "is_policy_valid": False,
                 'total_cookies': 0
             }
-        print(self.final_dict)
+        #print(self.final_dict)
 
     def conv_to_json(self):
         json_obj = json.dumps(self.final_dict)
