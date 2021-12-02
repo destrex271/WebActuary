@@ -73,8 +73,9 @@ ___You Can install these dependencies manually using pip or you can use the depe
   'begin_audit.bat' file is the main file that can be used to run this tool.
   You can also select a text file containing all your urls in seperate lines to run multiple tests.
   
-  ![Running bat](https://i.imgur.com/lrqcRLT.png)
-  ![Finished bat](https://i.imgur.com/hX20xHQ.png)
+  ![Running bat](https://i.imgur.com/uqEfnS3.png)
+  ![File Selection](https://i.imgur.com/DVsqNW2.png)
+  ![Finished bat](https://i.imgur.com/ecrfrUv.png)
 
 - ### Linux ###
     Navigate to the `linux` folder under `WebActuary-main/` and run the following commands:

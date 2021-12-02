@@ -27,3 +27,962 @@ Valid From : Oct 12 17:56:37 2021 UTC
 Valid Upto : Jan 10 17:56:36 2022 UTC
 
 
+
+
+---------------------ALT TEXT---------------------
+
+No Violations were discovered in case of Image accessibility!
+
+---------------------TAB NAVIGATION---------------------
+
+
+Your Website isn't tab indexed properly.
+You are requested to use the global attribute 'tabindex' in : 
+
+ <button class="dropdown__button">
+        Account
+        <svg class="dropdown__icon" height="6" role="img" viewbox="0 0 10 6" width="10" xmlns="http://www.w3.org/2000/svg">
+<title>Activating this button will toggle the display of additional content</title>
+<path d="M0 0l5 6 5-6z"></path>
+</svg>
+</button>
+<button class="search-form__submit">
+<svg class="search-form__icon">
+<title>Submit search</title>
+<use xlink:href="/media/components/masthead/sprite.svg#search"></use>
+</svg>
+</button>
+<button class="menu__control menu__control--open js-toggle-menu">
+<span aria-hidden="true" class="menu__control-text">Menu</span>
+<svg height="15" width="16">
+<title>Open menu</title>
+<use xlink:href="/media/components/masthead/sprite.svg#menu"></use>
+</svg>
+</button>
+<button class="menu__control slate-close js-toggle-menu">
+<svg height="21" width="21">
+<title>Close menu</title>
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#close"></use>
+</svg>
+</button>
+<a class="skip-to-main" href="#main">Skip to the content</a>
+<a class="notable__link" href="https://slate.com/news-and-politics/2021/11/mark-meadows-jan-six-good-day.html">Democracy</a>
+<a class="notable__link" href="https://slate.com/technology/2021/11/meta-told-to-sell-giphy-in-first-major-antitrust-move-against-facebooks-parent-company.html">Meta</a>
+<a class="notable__link" href="https://slate.com/news-and-politics/2021/11/ghislaine-maxwell-trial-jeffrey-epstein-bobbie-sternheim-lara-pomerantz.html">Ghislaine Maxwell Trial</a>
+<a class="notable__link" href="https://slate.com/technology/2021/11/fire-industrial-complex-wildfire-policy-suppression.html">Wildfires</a>
+<a class="notable__link" href="https://slate.com/business/2021/11/child-care-funds-build-back-better.html">Child Care</a>
+<a class="notable__link" href="https://slate.com/technology/2021/11/duolingo-weird-sentences-linguistics.html">Duolingo</a>
+<a class="notable__link" href="https://slate.com/culture/2021/11/house-gucci-lady-gaga-movie-patrizia-maurizio-accuracy.html">House of Gucci</a>
+<a class="notable__link" href="https://slate.com/human-interest/2021/11/jill-biden-white-house-christmas-display-melania-trump-rip.html">Jill Biden</a>
+<a class="masthead__login js-redirect-return" href="https://slate.com/sign-in">Sign In</a>
+<a class="dropdown__link js-account--account" hidden="" href="https://slate.com/account">
+                Account
+
+    </a>
+<a class="dropdown__link js-redirect-return js-account--sign-out" hidden="" href="https://slate.com/sign-out">
+                Sign out
+
+    </a>
+<a class="main-nav__logo" href="https://slate.com">
+<svg class="logo" height="80" width="259">
+<title>Slate homepage</title>
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#logo"></use>
+</svg>
+</a>
+<a class="sections__link" href="/news-and-politics">News &amp; Politics</a>
+<a class="sections__link" href="/culture">Culture</a>
+<a class="sections__link" href="/technology">Technology</a>
+<a class="sections__link" href="/business">Business</a>
+<a class="sections__link" href="/human-interest">Human Interest</a>
+<a class="sections__link" href="/podcasts">Podcasts</a>
+<a class="mobile-notable__link" href="https://slate.com/news-and-politics/2021/11/mark-meadows-jan-six-good-day.html">Democracy</a>
+<a class="mobile-notable__link" href="https://slate.com/technology/2021/11/meta-told-to-sell-giphy-in-first-major-antitrust-move-against-facebooks-parent-company.html">Meta</a>
+<a class="mobile-notable__link" href="https://slate.com/news-and-politics/2021/11/ghislaine-maxwell-trial-jeffrey-epstein-bobbie-sternheim-lara-pomerantz.html">Ghislaine Maxwell Trial</a>
+<a class="mobile-notable__link" href="https://slate.com/technology/2021/11/fire-industrial-complex-wildfire-policy-suppression.html">Wildfires</a>
+<a class="mobile-notable__link" href="https://slate.com/business/2021/11/child-care-funds-build-back-better.html">Child Care</a>
+<a class="mobile-notable__link" href="https://slate.com/technology/2021/11/duolingo-weird-sentences-linguistics.html">Duolingo</a>
+<a class="mobile-notable__link" href="https://slate.com/culture/2021/11/house-gucci-lady-gaga-movie-patrizia-maurizio-accuracy.html">House of Gucci</a>
+<a class="mobile-notable__link" href="https://slate.com/human-interest/2021/11/jill-biden-white-house-christmas-display-melania-trump-rip.html">Jill Biden</a>
+<a class="mobile-sections__link" href="/news-and-politics">News &amp; Politics</a>
+<a class="mobile-sections__link" href="/culture">Culture</a>
+<a class="mobile-sections__link" href="/technology">Technology</a>
+<a class="mobile-sections__link" href="/business">Business</a>
+<a class="mobile-sections__link" href="/human-interest">Human Interest</a>
+<a class="mobile-sections__link" href="/podcasts">Podcasts</a>
+<a class="mobile-sections__link" href="/search">
+<svg class="mag-lens" height="18" width="18">
+<use xlink:href="/media/components/masthead/sprite.svg#search"></use>
+</svg>
+            Search
+          </a>
+<a class="social__badge" href="https://www.instagram.com/slate/">
+<svg height="24" width="24">
+<title>Slate on Instagram</title>
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#instagram"></use>
+</svg>
+</a>
+<a class="social__badge" href="https://twitter.com/slate">
+<svg height="19" width="24">
+<title>Slate on Twitter</title>
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#twitter"></use>
+</svg>
+</a>
+<a class="social__badge" href="https://www.facebook.com/Slate/">
+<svg height="24" width="12">
+<title>Slate on Facebook</title>
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#facebook"></use>
+</svg>
+</a>
+<a class="mobile-sections__link--subscribe" href="https://slate.com/plus?utm_medium=link&amp;utm_campaign=plus&amp;utm_content=nav_bar&amp;utm_source=nav"><b>Subscribe</b></a>
+<a class="js-account--sign-in mobile-sections__link js-redirect-return" hidden="" href="https://slate.com/sign-in">Sign in</a>
+<a class="js-account--account mobile-sections__link" hidden="" href="https://slate.com/account">Account</a>
+<a class="js-account--sign-out mobile-sections__link js-redirect-return" hidden="" href="https://slate.com/sign-out">Sign out</a>
+<a href="https://slate.com">
+<svg class="logo" height="39" width="124">
+<title>Slate homepage</title>
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#logo"></use>
+</svg>
+</a>
+<a class="mobile-masthead__link js-account--mobile-account" hidden="" href="https://slate.com/account">Account</a>
+<a class="strapline__text" href="https://slate.com/news-and-politics/2021/11/lauren-boebert-ilhan-omar-nancy-mace-marjorie-taylor-greene.html">
+              A Classic Dunk Template
+            </a>
+<a class="social__badge" href="https://www.instagram.com/slate/">
+<svg height="18" width="18">
+<title>Slate on Instagram</title>
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#instagram"></use>
+</svg>
+</a>
+<a class="social__badge" href="https://twitter.com/slate">
+<svg height="15" width="18">
+<title>Slate on Twitter</title>
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#twitter"></use>
+</svg>
+</a>
+<a class="social__badge" href="https://www.facebook.com/Slate/">
+<svg height="18" width="9">
+<title>Slate on Facebook</title>
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#facebook"></use>
+</svg>
+</a>
+<a class="story-card__link" href="https://slate.com/news-and-politics/2021/12/scotus-will-gaslight-us-until-the-end.html">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/b9a07552-3104-4c31-b9f4-204a71b489de.jpeg?width=780&amp;height=520&amp;rect=4950x3300&amp;offset=0x0&amp;s=image-780" data-srcset="https://compote.slate.com/images/b9a07552-3104-4c31-b9f4-204a71b489de.jpeg?width=780&amp;height=520&amp;rect=4950x3300&amp;offset=0x0&amp;s=image-390 390w,https://compote.slate.com/images/b9a07552-3104-4c31-b9f4-204a71b489de.jpeg?width=780&amp;height=520&amp;rect=4950x3300&amp;offset=0x0&amp;s=image-585 585w,https://compote.slate.com/images/b9a07552-3104-4c31-b9f4-204a71b489de.jpeg?width=780&amp;height=520&amp;rect=4950x3300&amp;offset=0x0&amp;s=image-780 780w,https://compote.slate.com/images/b9a07552-3104-4c31-b9f4-204a71b489de.jpeg?width=780&amp;height=520&amp;rect=4950x3300&amp;offset=0x0&amp;s=image-1170 1170w,https://compote.slate.com/images/b9a07552-3104-4c31-b9f4-204a71b489de.jpeg?width=780&amp;height=520&amp;rect=4950x3300&amp;offset=0x0&amp;s=image-1560 1560w"/></div>
+<div class="story-card__teaser">
+<h2 class="story-card__headline">
+        
+        The Supreme Court Will Gaslight Until the End
+      </h2>
+<div class="story-card__byline">
+          Dahlia Lithwick
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/news-and-politics/2021/12/liam-kerr-centrist-democrats-big-tent-welcome-party.html">
+<div class="story-teaser__img-wrap">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/5a7d0f7b-984d-488c-8a59-e0f213e3c615.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-390" data-srcset="https://compote.slate.com/images/5a7d0f7b-984d-488c-8a59-e0f213e3c615.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-390 390w,https://compote.slate.com/images/5a7d0f7b-984d-488c-8a59-e0f213e3c615.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-585 585w,https://compote.slate.com/images/5a7d0f7b-984d-488c-8a59-e0f213e3c615.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-780 780w,https://compote.slate.com/images/5a7d0f7b-984d-488c-8a59-e0f213e3c615.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-1170 1170w,https://compote.slate.com/images/5a7d0f7b-984d-488c-8a59-e0f213e3c615.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-1560 1560w"/></div>
+</div>
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+        
+        How a Centrist Is Completely Rethinking How to Get Independents to Vote for Democrats
+      </h3>
+<div class="story-teaser__author">
+          Christina Cauterucci
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/news-and-politics/2021/12/where-trump-went-secret-covid-test.html">
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+        
+        All the Places Trump Went After Secretly Testing Positive for COVID
+      </h3>
+<div class="story-teaser__author">
+          William Saletan
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/news-and-politics/2021/12/supreme-court-abortion-breyer-barrett-roberts.html">
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+        
+        During Arguments Over <em>Roe</em>’s Fate, Justice Breyer Played Right Into the Conservatives’ Hands
+      </h3>
+<div class="story-teaser__author">
+          Mark Joseph Stern
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/technology/2021/12/dr-oz-good-doctor-senate-pennsylvania-trump-republicans.html">
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+        
+        Is Dr. Oz a Good Surgeon?
+      </h3>
+<div class="story-teaser__author">
+          Shannon Palus
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/news-and-politics/2021/12/supreme-court-new-york-rifle-doctrine.html">
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+        
+        SCOTUS May Elevate the Second Amendment Above the First
+      </h3>
+<div class="story-teaser__author">
+          Raymond Ku
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/news-and-politics/2021/11/red-states-are-now-paying-unemployment-benefits-to-anti-vaxxers-who-quit-their-jobs.html">
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+        
+        Red States Are Paying Unemployment Benefits to Anti-Vaxxers Who Quit Their Jobs
+      </h3>
+<div class="story-teaser__author">
+          William Saletan
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/human-interest/2021/12/the-best-kitchen-tools-to-buy-in-multiples.html">
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+        
+        Every Home Cook Should Have Two of These
+      </h3>
+<div class="story-teaser__author">
+          Sara Dickerman
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/human-interest/2021/12/submissive-straight-man-acceptance-sex-advice.html">
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+        
+        I Have the Last Sexual Preference for a Man That No One Will Accept
+      </h3>
+<div class="story-teaser__author">
+          Jessica Stoya
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/human-interest/2021/12/sex-positive-parenting-care-and-feeding-plus.html">
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+        
+        I Have No Idea How to Be a “Sex-Positive” Parent
+      </h3>
+<div class="story-teaser__author">
+          Slate Staff
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/briefing/2021/12/slate-plus-podcasts-are-now-available-on-spotify.html">
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+        
+        Slate Plus Podcasts Are Now Available on Spotify
+      </h3>
+<div class="story-teaser__author">
+          Slate Staff
+        </div>
+</div>
+</a>
+<a class="story-card__link" href="https://slate.com/culture/2021/12/pittsburgh-steelers-ben-roethlisberger-old-bad-purgatory.html">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/ec4fcc14-e114-41a4-b186-97c660f8acb1.jpeg?width=780&amp;height=520&amp;rect=2835x1890&amp;offset=165x0&amp;s=image-780" data-srcset="https://compote.slate.com/images/ec4fcc14-e114-41a4-b186-97c660f8acb1.jpeg?width=780&amp;height=520&amp;rect=2835x1890&amp;offset=165x0&amp;s=image-390 390w,https://compote.slate.com/images/ec4fcc14-e114-41a4-b186-97c660f8acb1.jpeg?width=780&amp;height=520&amp;rect=2835x1890&amp;offset=165x0&amp;s=image-585 585w,https://compote.slate.com/images/ec4fcc14-e114-41a4-b186-97c660f8acb1.jpeg?width=780&amp;height=520&amp;rect=2835x1890&amp;offset=165x0&amp;s=image-780 780w,https://compote.slate.com/images/ec4fcc14-e114-41a4-b186-97c660f8acb1.jpeg?width=780&amp;height=520&amp;rect=2835x1890&amp;offset=165x0&amp;s=image-1170 1170w,https://compote.slate.com/images/ec4fcc14-e114-41a4-b186-97c660f8acb1.jpeg?width=780&amp;height=520&amp;rect=2835x1890&amp;offset=165x0&amp;s=image-1560 1560w"/></div>
+<div class="story-card__teaser">
+<h2 class="story-card__headline">
+        
+        The Pittsburgh Steelers Are in a Very Bad Place
+      </h2>
+<div class="story-card__byline">
+          Alex Kirshner
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/technology/2021/12/why-privacy-matters-excerpt-creepiness.html">
+<div class="story-teaser__img-wrap">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/3e065375-4302-42bf-8b36-6a51ee92ab59.jpeg?width=780&amp;height=520&amp;rect=5472x3648&amp;offset=0x0&amp;s=image-390" data-srcset="https://compote.slate.com/images/3e065375-4302-42bf-8b36-6a51ee92ab59.jpeg?width=780&amp;height=520&amp;rect=5472x3648&amp;offset=0x0&amp;s=image-390 390w,https://compote.slate.com/images/3e065375-4302-42bf-8b36-6a51ee92ab59.jpeg?width=780&amp;height=520&amp;rect=5472x3648&amp;offset=0x0&amp;s=image-585 585w,https://compote.slate.com/images/3e065375-4302-42bf-8b36-6a51ee92ab59.jpeg?width=780&amp;height=520&amp;rect=5472x3648&amp;offset=0x0&amp;s=image-780 780w,https://compote.slate.com/images/3e065375-4302-42bf-8b36-6a51ee92ab59.jpeg?width=780&amp;height=520&amp;rect=5472x3648&amp;offset=0x0&amp;s=image-1170 1170w,https://compote.slate.com/images/3e065375-4302-42bf-8b36-6a51ee92ab59.jpeg?width=780&amp;height=520&amp;rect=5472x3648&amp;offset=0x0&amp;s=image-1560 1560w"/></div>
+</div>
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+        
+        “Creepiness” Is the Wrong Way to Think About Privacy
+      </h3>
+<div class="story-teaser__author">
+          Neil Richards
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/culture/2021/12/yellowjackets-showtime-review-succession-squid-game.html">
+<div class="story-teaser__img-wrap">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/db11e10b-49d4-4d91-9f6e-e1af87dbbaa7.jpeg?width=780&amp;height=520&amp;rect=921x614&amp;offset=132x0&amp;s=image-390" data-srcset="https://compote.slate.com/images/db11e10b-49d4-4d91-9f6e-e1af87dbbaa7.jpeg?width=780&amp;height=520&amp;rect=921x614&amp;offset=132x0&amp;s=image-390 390w,https://compote.slate.com/images/db11e10b-49d4-4d91-9f6e-e1af87dbbaa7.jpeg?width=780&amp;height=520&amp;rect=921x614&amp;offset=132x0&amp;s=image-585 585w,https://compote.slate.com/images/db11e10b-49d4-4d91-9f6e-e1af87dbbaa7.jpeg?width=780&amp;height=520&amp;rect=921x614&amp;offset=132x0&amp;s=image-780 780w,https://compote.slate.com/images/db11e10b-49d4-4d91-9f6e-e1af87dbbaa7.jpeg?width=780&amp;height=520&amp;rect=921x614&amp;offset=132x0&amp;s=image-1170 1170w,https://compote.slate.com/images/db11e10b-49d4-4d91-9f6e-e1af87dbbaa7.jpeg?width=780&amp;height=520&amp;rect=921x614&amp;offset=132x0&amp;s=image-1560 1560w"/></div>
+</div>
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+        
+        If <em>Yellowjackets</em> Had Dropped on Netflix, It’d Be All Anyone Was Talking About
+      </h3>
+<div class="story-teaser__author">
+          Phillip Maciak
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/culture/2021/11/get-back-beatles-documentary-review-disney-plus.html">
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+        
+        The New Beatles Doc Is an Eight-Hour Love Story
+      </h3>
+<div class="story-teaser__author">
+          Carl Wilson
+        </div>
+</div>
+</a>
+<a class="story-teaser__cta" href="https://slate.com/culture/2021/11/wheel-of-time-amazon-game-of-thrones.html">
+<div class="story-teaser__teaser">
+<h3 class="story-teaser__headline">
+<em>The Wheel of Time </em>Isn’t “the New <em>Game of Thrones</em>.” It’s Better.
+      </h3>
+<div class="story-teaser__author">
+          Rebecca Long
+        </div>
+</div>
+</a>
+<a href="/human-interest/dear-prudence">
+<img alt="Dear Pruduence" class="homepage-prudie__banner" height="74" sizes="(min-width: 450px) 420px, 100vw" src="https://compote.slate.com/images/6d36d895-a5e6-4ee4-875b-f685bffc1497.png" srcset="https://compote.slate.com/images/6d36d895-a5e6-4ee4-875b-f685bffc1497.png?width=320 320w,
+https://compote.slate.com/images/6d36d895-a5e6-4ee4-875b-f685bffc1497.png?width=480 480w,
+https://compote.slate.com/images/6d36d895-a5e6-4ee4-875b-f685bffc1497.png?width=600 600w,
+https://compote.slate.com/images/6d36d895-a5e6-4ee4-875b-f685bffc1497.png?width=840 840w,
+https://compote.slate.com/images/6d36d895-a5e6-4ee4-875b-f685bffc1497.png?width=960 960w,
+https://compote.slate.com/images/6d36d895-a5e6-4ee4-875b-f685bffc1497.png?width=1280 1280w,
+https://compote.slate.com/images/6d36d895-a5e6-4ee4-875b-f685bffc1497.png?width=1440 1440w,
+https://compote.slate.com/images/6d36d895-a5e6-4ee4-875b-f685bffc1497.png?width=1600 1600w,
+https://compote.slate.com/images/6d36d895-a5e6-4ee4-875b-f685bffc1497.png?width=1920 1920w,
+https://compote.slate.com/images/6d36d895-a5e6-4ee4-875b-f685bffc1497.png?width=2200 2200w" width="420"/>
+</a>
+<a class="homepage-prudie__link" href="/human-interest/dear-prudence">View all</a>
+<a class="hp-prudie-feed__item hp-prudie-feed__featured" data-tb-region-item="" href="https://slate.com/human-interest/2021/12/dear-prudence-cursed-painting-yikes.html">
+<div class="hp-prudie__feature-image">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/272f9f1b-3963-4a62-8b4f-1866cc46d0f2.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-390" data-srcset="https://compote.slate.com/images/272f9f1b-3963-4a62-8b4f-1866cc46d0f2.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-195 195w,https://compote.slate.com/images/272f9f1b-3963-4a62-8b4f-1866cc46d0f2.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-390 390w,https://compote.slate.com/images/272f9f1b-3963-4a62-8b4f-1866cc46d0f2.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-585 585w,https://compote.slate.com/images/272f9f1b-3963-4a62-8b4f-1866cc46d0f2.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-780 780w,https://compote.slate.com/images/272f9f1b-3963-4a62-8b4f-1866cc46d0f2.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-1170 1170w,https://compote.slate.com/images/272f9f1b-3963-4a62-8b4f-1866cc46d0f2.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-1560 1560w"/></div>
+</div>
+<div class="hp-prudie__feature-teaser">
+<div class="hp-prudie__feature-quote">
+<h3 class="hp-prudie__feature-headline hp-prudie__feature-headline--quote">
+                We really don't want to be looking at this 6-foot-tall painting of ourselves on a daily basis!
+                <svg height="16" width="18">
+<use xlink:href="/media/sites/slate-com/prudie-sprite.svg#right-arrow"></use>
+</svg>
+</h3>
+</div>
+</div>
+</a>
+<a class="hp-prudie__teaser" data-tb-region-item="" href="https://slate.com/human-interest/2021/12/dear-prudence-uncensored-blame-game-fail.html">
+<div class="roadblock-indicator" data-uri="slate.com/_components/roadblock-indicator/instances/global@published">
+<svg class="roadblock-indicator__lock">
+<title>Content Locked</title>
+<use xlink:href="/media/components/roadblock-indicator/sprite.svg#lock"></use>
+</svg><svg class="roadblock-indicator__splus">
+<title>for Slate Plus members</title>
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#splus"></use>
+</svg>
+</div>
+<h3 class="hp-prudie__headline">
+            
+            Dear Prudence Uncensored: “Blame Game Fail”
+          </h3>
+</a>
+<a class="hp-prudie__teaser" data-tb-region-item="" href="https://slate.com/human-interest/2021/12/white-rejected-by-diversity-initiatives-dear-prudence-advice.html">
+<div class="roadblock-indicator" data-uri="slate.com/_components/roadblock-indicator/instances/global@published">
+<svg class="roadblock-indicator__lock">
+<title>Content Locked</title>
+<use xlink:href="/media/components/roadblock-indicator/sprite.svg#lock"></use>
+</svg><svg class="roadblock-indicator__splus">
+<title>for Slate Plus members</title>
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#splus"></use>
+</svg>
+</div>
+<h3 class="hp-prudie__headline">
+            
+            Help! I’m a White Person Who’s Tired of Working on Diversity Initiatives at Work.
+          </h3>
+</a>
+<a class="hp-prudie__teaser" data-tb-region-item="" href="https://slate.com/human-interest/2021/11/disgusted-holiday-food-dear-prudence-advice.html">
+<h3 class="hp-prudie__headline">
+            
+            Help! I’m Disgusted by All Our Holiday Food Traditions.
+          </h3>
+</a>
+<a class="hp-prudie__teaser" data-tb-region-item="" href="https://slate.com/human-interest/2021/11/brother-blames-covid-vaccine-miscarriage-dear-prudence-advice.html">
+<h3 class="hp-prudie__headline">
+            
+            Help! My Brother Blames Me for My Miscarriage.
+          </h3>
+</a>
+<a class="homepage-prudie__advice" data-tb-region-item="" href="https://slate.com/human-interest/2021/11/navigate-teenage-friendships-parenting-advice.html">
+<div class="homepage-prudie__advice-img">
+<img alt="And other advice..." src="/media/components/homepage-dear-prudie/advice.svg"/>
+</div>
+<div class="homepage-prudie__advice-teaser">
+<div class="homepage-prudie__advice-rubric">Care and Feeding</div>
+<h3 class="homepage-prudie__advice-headline">My Daughters’ Friends Have the Most Frustrating Excuse for Being Flaky</h3>
+</div>
+</a>
+<a class="recent-stories__link" href="https://slate.com/full-slate">View all <span>Most Recent stories</span></a>
+<a class="recent-stories-item" data-tb-region-item="" href="https://slate.com/news-and-politics/2021/12/cuban-protests-achipielago-15n-government-suppression.html">
+<time class="recent-stories-item__date">
+          33m ago
+        </time>
+<div class="recent-stories-item__info">
+<p class="recent-stories-item__byline">
+Michael J. Bustamante
+            </p>
+<h3 class="recent-stories-item__promoline">
+            The Cuban Government Hasn’t Won Yet
+          </h3>
+</div>
+</a>
+<a class="recent-stories-item" data-tb-region-item="" href="https://slate.com/human-interest/2021/12/the-best-kitchen-tools-to-buy-in-multiples.html">
+<time class="recent-stories-item__date">
+          1h ago
+        </time>
+<div class="recent-stories-item__info">
+<p class="recent-stories-item__byline">
+Sara Dickerman
+            </p>
+<h3 class="recent-stories-item__promoline">
+            Every Home Cook Should Have Two of These
+          </h3>
+</div>
+</a>
+<a class="recent-stories-item" data-tb-region-item="" href="https://slate.com/human-interest/2021/12/when-teachers-retaliate-against-students.html">
+<time class="recent-stories-item__date">
+          1h ago
+        </time>
+<div class="recent-stories-item__info">
+<p class="recent-stories-item__byline">
+Katie Holbrook, Cassy Sarnell, and Amy Scott
+            </p>
+<h3 class="recent-stories-item__promoline">
+            Ask a Teacher: My Son’s Teacher is Mad at Me, but He’s Taking It Out on My Son
+          </h3>
+</div>
+</a>
+<a class="recent-stories-item" data-tb-region-item="" href="https://slate.com/human-interest/2021/12/anthony-ramos-jasmine-cephas-jones-breakup-wife-guy-theory.html">
+<time class="recent-stories-item__date">
+          2h ago
+        </time>
+<div class="recent-stories-item__info">
+<p class="recent-stories-item__byline">
+Sam Adams, Julia Craven, Nadira Goffe, Rachelle Hampton, and Rebecca Onion
+            </p>
+<h3 class="recent-stories-item__promoline">
+            The Brutal Celebrity Breakup That Proves Being a Wife Guy Is Risky Business
+          </h3>
+</div>
+</a>
+<a class="recent-stories-item" data-tb-region-item="" href="https://slate.com/news-and-politics/2021/12/supreme-court-abortion-breyer-barrett-roberts.html">
+<time class="recent-stories-item__date">
+          2h ago
+        </time>
+<div class="recent-stories-item__info">
+<p class="recent-stories-item__byline">
+Mark Joseph Stern
+            </p>
+<h3 class="recent-stories-item__promoline">
+            During Arguments Over <em>Roe</em>’s Fate, Justice Breyer Played Right Into the Conservatives’ Hands
+          </h3>
+</div>
+</a>
+<a class="recent-stories-item" data-tb-region-item="" href="https://slate.com/technology/2021/12/why-privacy-matters-excerpt-creepiness.html">
+<time class="recent-stories-item__date">
+          5h ago
+        </time>
+<div class="recent-stories-item__info">
+<p class="recent-stories-item__byline">
+Neil Richards
+            </p>
+<h3 class="recent-stories-item__promoline">
+            “Creepiness” Is the Wrong Way to Think About Privacy
+          </h3>
+</div>
+</a>
+<a class="most-engaged-teaser__link" href="https://slate.com/news-and-politics/2021/12/dobbs-supreme-court-abortion-kavanaugh-barrett.html">
+<div class="most-engaged-teaser__image">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/e09c9902-984b-4109-b45e-8c9e1c4a4f61.jpeg?width=780&amp;height=520&amp;rect=5000x3333&amp;offset=0x0&amp;s=image-390" data-srcset="https://compote.slate.com/images/e09c9902-984b-4109-b45e-8c9e1c4a4f61.jpeg?width=780&amp;height=520&amp;rect=5000x3333&amp;offset=0x0&amp;s=image-195 195w,https://compote.slate.com/images/e09c9902-984b-4109-b45e-8c9e1c4a4f61.jpeg?width=780&amp;height=520&amp;rect=5000x3333&amp;offset=0x0&amp;s=image-390 390w,https://compote.slate.com/images/e09c9902-984b-4109-b45e-8c9e1c4a4f61.jpeg?width=780&amp;height=520&amp;rect=5000x3333&amp;offset=0x0&amp;s=image-585 585w,https://compote.slate.com/images/e09c9902-984b-4109-b45e-8c9e1c4a4f61.jpeg?width=780&amp;height=520&amp;rect=5000x3333&amp;offset=0x0&amp;s=image-780 780w,https://compote.slate.com/images/e09c9902-984b-4109-b45e-8c9e1c4a4f61.jpeg?width=780&amp;height=520&amp;rect=5000x3333&amp;offset=0x0&amp;s=image-1170 1170w,https://compote.slate.com/images/e09c9902-984b-4109-b45e-8c9e1c4a4f61.jpeg?width=780&amp;height=520&amp;rect=5000x3333&amp;offset=0x0&amp;s=image-1560 1560w"/></div>
+</div>
+<h3 class="most-engaged-teaser__headline">
+            
+            During Arguments Over the Fate of <em>Roe</em>, Kavanaugh and Barrett Finally Showed Their Cards
+          </h3>
+<p class="most-engaged-teaser__byline">
+Mark Joseph Stern
+                  </p>
+</a>
+<a class="most-engaged-teaser__link" href="https://slate.com/news-and-politics/2021/12/scotus-will-gaslight-us-until-the-end.html">
+<div class="most-engaged-teaser__image">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/b9a07552-3104-4c31-b9f4-204a71b489de.jpeg?width=780&amp;height=520&amp;rect=4950x3300&amp;offset=0x0&amp;s=image-390" data-srcset="https://compote.slate.com/images/b9a07552-3104-4c31-b9f4-204a71b489de.jpeg?width=780&amp;height=520&amp;rect=4950x3300&amp;offset=0x0&amp;s=image-195 195w,https://compote.slate.com/images/b9a07552-3104-4c31-b9f4-204a71b489de.jpeg?width=780&amp;height=520&amp;rect=4950x3300&amp;offset=0x0&amp;s=image-390 390w,https://compote.slate.com/images/b9a07552-3104-4c31-b9f4-204a71b489de.jpeg?width=780&amp;height=520&amp;rect=4950x3300&amp;offset=0x0&amp;s=image-585 585w,https://compote.slate.com/images/b9a07552-3104-4c31-b9f4-204a71b489de.jpeg?width=780&amp;height=520&amp;rect=4950x3300&amp;offset=0x0&amp;s=image-780 780w,https://compote.slate.com/images/b9a07552-3104-4c31-b9f4-204a71b489de.jpeg?width=780&amp;height=520&amp;rect=4950x3300&amp;offset=0x0&amp;s=image-1170 1170w,https://compote.slate.com/images/b9a07552-3104-4c31-b9f4-204a71b489de.jpeg?width=780&amp;height=520&amp;rect=4950x3300&amp;offset=0x0&amp;s=image-1560 1560w"/></div>
+</div>
+<h3 class="most-engaged-teaser__headline">
+            
+            SCOTUS Will Gaslight Us Until the End
+          </h3>
+<p class="most-engaged-teaser__byline">
+Dahlia Lithwick
+                  </p>
+</a>
+<a class="most-engaged-teaser__link" href="https://slate.com/news-and-politics/2021/12/amy-coney-barrett-abortion-adoption-comments.html">
+<h3 class="most-engaged-teaser__headline">
+            While Hearing the Case that Could Overturn <em>Roe</em>, Amy Coney Barrett Suggests Adoption Could Obviate the Need for Abortion Anyway
+          </h3>
+<p class="most-engaged-teaser__byline">
+Susan Matthews
+                  </p>
+</a>
+<a class="most-engaged-teaser__link" href="https://slate.com/news-and-politics/2021/12/where-trump-went-secret-covid-test.html">
+<h3 class="most-engaged-teaser__headline">
+            All the Places Trump Went After Secretly Testing Positive for COVID
+          </h3>
+<p class="most-engaged-teaser__byline">
+William Saletan
+                  </p>
+</a>
+<a href="https://slate.com/culture">Culture</a>
+<a href="/culture/movies">Movies</a>
+<a href="/culture/music">Music</a>
+<a href="/culture/television">Television</a>
+<a href="/culture/books">Books</a>
+<a href="/culture/video-games">Video Games</a>
+<a href="/culture/sports">Sports</a>
+<a href="/culture/wide-angle">Wide Angle</a>
+<a href="/culture/brow-beat">Brow Beat</a>
+<a class="section-header__link" href="/culture">
+        View all
+        <span>Culture</span>
+</a>
+<a class="section-feed-two-column__card-link" href="https://slate.com/culture/2021/11/house-of-gucci-accents-lady-gaga-jared-leto-review.html">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/a1219a89-dddc-4b06-9522-396653b5c25e.jpeg?width=780&amp;height=520&amp;rect=1554x1036&amp;offset=419x0&amp;s=image-780" data-srcset="https://compote.slate.com/images/a1219a89-dddc-4b06-9522-396653b5c25e.jpeg?width=780&amp;height=520&amp;rect=1554x1036&amp;offset=419x0&amp;s=image-390 390w,https://compote.slate.com/images/a1219a89-dddc-4b06-9522-396653b5c25e.jpeg?width=780&amp;height=520&amp;rect=1554x1036&amp;offset=419x0&amp;s=image-585 585w,https://compote.slate.com/images/a1219a89-dddc-4b06-9522-396653b5c25e.jpeg?width=780&amp;height=520&amp;rect=1554x1036&amp;offset=419x0&amp;s=image-780 780w,https://compote.slate.com/images/a1219a89-dddc-4b06-9522-396653b5c25e.jpeg?width=780&amp;height=520&amp;rect=1554x1036&amp;offset=419x0&amp;s=image-1170 1170w,https://compote.slate.com/images/a1219a89-dddc-4b06-9522-396653b5c25e.jpeg?width=780&amp;height=520&amp;rect=1554x1036&amp;offset=419x0&amp;s=image-1560 1560w"/></div>
+<div class="section-feed-two-column__card-teaser">
+<h3 class="section-feed-two-column__card-headline">
+              Who Has the Best—and Worst—Italian Accent in <em>House of Gucci</em>?
+            </h3>
+<div class="section-feed-two-column__card-byline">
+Heather Schwedel
+              </div>
+<p class="section-feed-two-column__card-dek">A dialect coach assesses Lady Gaga, Jared Leto, and more.</p>
+</div>
+</a>
+<a class="section-feed-two-column__teaser" href="https://slate.com/culture/2021/12/pittsburgh-steelers-ben-roethlisberger-old-bad-purgatory.html">
+<h3 class="section-feed-two-column__teaser-headline">
+              The Pittsburgh Steelers Are in a Very Bad Place
+            </h3>
+<div class="section-feed-two-column__teaser-author">
+Alex Kirshner
+              </div>
+</a>
+<a class="section-feed-two-column__teaser" href="https://slate.com/culture/2021/12/yellowjackets-showtime-review-succession-squid-game.html">
+<h3 class="section-feed-two-column__teaser-headline">
+              If <em>Yellowjackets</em> Had Dropped on Netflix, It’d Be All Anyone Was Talking About
+            </h3>
+<div class="section-feed-two-column__teaser-author">
+Phillip Maciak
+              </div>
+</a>
+<a class="section-feed-two-column__teaser" href="https://slate.com/culture/2021/12/new-streaming-december-2021-hbo-netflix-amazon-hulu.html">
+<h3 class="section-feed-two-column__teaser-headline">
+              The Best Movies and TV Shows Coming to Netflix, HBO, Amazon Prime, and Hulu in December
+            </h3>
+<div class="section-feed-two-column__teaser-author">
+Sam Adams, Allegra Frank, Nadira Goffe, and Forrest Wickman
+              </div>
+</a>
+<a class="section-feed-two-column__teaser" href="https://slate.com/podcasts/culture-gabfest/2021/12/review-spencer-yellowjackets-stephen-sondheim">
+<h3 class="section-feed-two-column__teaser-headline">
+              Does <em>Spencer </em>Care About the Royals?
+            </h3>
+<div class="section-feed-two-column__teaser-author">
+<svg class="signifier--podcast" height="1em" width="1em">
+<title>Podcast Episode</title>
+<use xlink:href="/media/sites/slate-com/signifiers.svg#headphones"></use>
+</svg>
+    
+                Culture Gabfest
+</div>
+</a>
+<a class="section-feed-two-column__teaser" href="https://slate.com/podcasts/icymi/2021/12/subreddit-tumblrinaction-breeding-ground-online-harassment">
+<h3 class="section-feed-two-column__teaser-headline">
+              The Subreddits That Ruined the Internet
+            </h3>
+<div class="section-feed-two-column__teaser-author">
+<svg class="signifier--podcast" height="1em" width="1em">
+<title>Podcast Episode</title>
+<use xlink:href="/media/sites/slate-com/signifiers.svg#headphones"></use>
+</svg>
+    
+                ICYMI
+</div>
+</a>
+<a class="section-feed-two-column__teaser" href="https://slate.com/culture/2021/11/get-back-beatles-documentary-review-disney-plus.html">
+<h3 class="section-feed-two-column__teaser-headline">
+              There’s a Reason the New Beatles Doc Had to Be Eight Hours
+            </h3>
+<div class="section-feed-two-column__teaser-author">
+Carl Wilson
+              </div>
+</a>
+<a href="https://slate.com/technology">Tech &amp; Business</a>
+<a href="/business/moneybox">Moneybox</a>
+<a href="/business/metropolis">Metropolis</a>
+<a href="/technology/the-industry">The Industry</a>
+<a href="/business/the-media">The Media</a>
+<a href="/technology/users">Users</a>
+<a href="/technology/future-tense">Future Tense</a>
+<a href="/technology/science">Science</a>
+<a href="/technology/medical-examiner">Medical Examiner</a>
+<a class="section-header__link" href="/technology">
+        View all
+        <span>Tech &amp; Business</span>
+</a>
+<a class="section-feed-three-column__card-link" href="https://slate.com/technology/2021/11/facebook-internal-employee-survey-morale-trump-looting-shooting.html">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/fc53f305-1760-46f6-b2ac-bd59f45bc37f.jpeg?width=780&amp;height=520&amp;rect=4840x3227&amp;offset=0x0&amp;s=image-585" data-srcset="https://compote.slate.com/images/fc53f305-1760-46f6-b2ac-bd59f45bc37f.jpeg?width=780&amp;height=520&amp;rect=4840x3227&amp;offset=0x0&amp;s=image-390 390w,https://compote.slate.com/images/fc53f305-1760-46f6-b2ac-bd59f45bc37f.jpeg?width=780&amp;height=520&amp;rect=4840x3227&amp;offset=0x0&amp;s=image-585 585w,https://compote.slate.com/images/fc53f305-1760-46f6-b2ac-bd59f45bc37f.jpeg?width=780&amp;height=520&amp;rect=4840x3227&amp;offset=0x0&amp;s=image-780 780w,https://compote.slate.com/images/fc53f305-1760-46f6-b2ac-bd59f45bc37f.jpeg?width=780&amp;height=520&amp;rect=4840x3227&amp;offset=0x0&amp;s=image-1170 1170w,https://compote.slate.com/images/fc53f305-1760-46f6-b2ac-bd59f45bc37f.jpeg?width=780&amp;height=520&amp;rect=4840x3227&amp;offset=0x0&amp;s=image-1560 1560w"/></div>
+<div class="section-feed-three-column__card-teaser">
+<h3 class="section-feed-three-column__card-headline">
+              How Morale at Facebook Tumbled After Trump’s “Looting and Shooting” Post
+            </h3>
+<div class="section-feed-three-column__card-byline">
+Nitish Pahwa
+              </div>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/technology/2021/12/smart-cities-climate-change-green-energy-deserts.html">
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline">
+              Shocking: “Smart Cities” May Not Be So Smart After All
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+Jim Robbins
+              </div>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/technology/2021/12/dr-oz-good-doctor-senate-pennsylvania-trump-republicans.html">
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline">
+              Dr. Oz Is Actually an Amazing Doctor, in One Sense 
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+Shannon Palus
+              </div>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/technology/2021/12/solar-panels-rooftops-parking-lots-cars-canopies-energy.html">
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline">
+              The Perfect Places to Install a Bunch of Solar Panels
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+Richard Conniff
+              </div>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/technology/2021/11/meta-told-to-sell-giphy-in-first-major-antitrust-move-against-facebooks-parent-company.html">
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline">
+              The First Major Antitrust Move Against Meta Is Over GIFs?
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+Aaron Mak
+              </div>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/business/2021/11/child-care-funds-build-back-better.html">
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline">
+              Can Democrats Fix “the Most Broken Business in America”?
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+Mary Harris
+              </div>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/technology/2021/11/fire-industrial-complex-wildfire-policy-suppression.html">
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline">
+              The U.S. Government Is Wasting Billions on Ineffective Wildfire Policy
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+Aaron Labaree
+              </div>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/technology/2021/12/why-privacy-matters-excerpt-creepiness.html">
+<div class="section-feed-three-column__teaser-img">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/3e065375-4302-42bf-8b36-6a51ee92ab59.jpeg?width=780&amp;height=520&amp;rect=5472x3648&amp;offset=0x0&amp;s=image-390" data-srcset="https://compote.slate.com/images/3e065375-4302-42bf-8b36-6a51ee92ab59.jpeg?width=780&amp;height=520&amp;rect=5472x3648&amp;offset=0x0&amp;s=image-390 390w,https://compote.slate.com/images/3e065375-4302-42bf-8b36-6a51ee92ab59.jpeg?width=780&amp;height=520&amp;rect=5472x3648&amp;offset=0x0&amp;s=image-585 585w,https://compote.slate.com/images/3e065375-4302-42bf-8b36-6a51ee92ab59.jpeg?width=780&amp;height=520&amp;rect=5472x3648&amp;offset=0x0&amp;s=image-780 780w,https://compote.slate.com/images/3e065375-4302-42bf-8b36-6a51ee92ab59.jpeg?width=780&amp;height=520&amp;rect=5472x3648&amp;offset=0x0&amp;s=image-1170 1170w,https://compote.slate.com/images/3e065375-4302-42bf-8b36-6a51ee92ab59.jpeg?width=780&amp;height=520&amp;rect=5472x3648&amp;offset=0x0&amp;s=image-1560 1560w"/></div>
+</div>
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline section-feed-three-column__teaser-headline--promoted">
+              “Creepiness” Is the Wrong Way to Think About Privacy
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+Neil Richards
+              </div>
+</div>
+</a>
+<a href="https://slate.com/human-interest">Human Interest</a>
+<a href="/human-interest/family">Family</a>
+<a href="/human-interest/relationships">Relationships</a>
+<a href="/human-interest/work">Work</a>
+<a href="/human-interest/downtime">Downtime</a>
+<a href="/human-interest/dear-prudence ">Dear Prudence</a>
+<a href="/human-interest/care-and-feeding">Care and Feeding</a>
+<a href="/human-interest/how-to-do-it">How to Do It</a>
+<a class="section-header__link" href="/human-interest">
+        View all
+        <span>Human Interest</span>
+</a>
+<a class="section-feed-two-column__card-link" href="https://slate.com/human-interest/2021/11/postpartum-doulas-black-mothers-childcare-sleep.html">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/167119e4-c9d0-4376-8df9-2588bf0f97ce.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-780" data-srcset="https://compote.slate.com/images/167119e4-c9d0-4376-8df9-2588bf0f97ce.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-390 390w,https://compote.slate.com/images/167119e4-c9d0-4376-8df9-2588bf0f97ce.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-585 585w,https://compote.slate.com/images/167119e4-c9d0-4376-8df9-2588bf0f97ce.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-780 780w,https://compote.slate.com/images/167119e4-c9d0-4376-8df9-2588bf0f97ce.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-1170 1170w,https://compote.slate.com/images/167119e4-c9d0-4376-8df9-2588bf0f97ce.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-1560 1560w"/></div>
+<div class="section-feed-two-column__card-teaser">
+<h3 class="section-feed-two-column__card-headline">
+              Why One Mom’s Viral Video About Her Night Doula Made So Many People So Angry
+            </h3>
+<div class="section-feed-two-column__card-byline">
+Julia Craven
+              </div>
+<p class="section-feed-two-column__card-dek">A longtime doula explains.</p>
+</div>
+</a>
+<a class="section-feed-two-column__teaser" href="https://slate.com/human-interest/2021/12/the-best-kitchen-tools-to-buy-in-multiples.html">
+<h3 class="section-feed-two-column__teaser-headline">
+              Every Home Cook Should Have Two of These
+            </h3>
+<div class="section-feed-two-column__teaser-author">
+Sara Dickerman
+              </div>
+</a>
+<a class="section-feed-two-column__teaser" href="https://slate.com/human-interest/2021/12/when-teachers-retaliate-against-students.html">
+<h3 class="section-feed-two-column__teaser-headline">
+              Ask a Teacher: My Son’s Teacher is Mad at Me, but He’s Taking It Out on My Son
+            </h3>
+<div class="section-feed-two-column__teaser-author">
+Katie Holbrook, Cassy Sarnell, and Amy Scott
+              </div>
+</a>
+<a class="section-feed-two-column__teaser" href="https://slate.com/human-interest/2021/12/anthony-ramos-jasmine-cephas-jones-breakup-wife-guy-theory.html">
+<h3 class="section-feed-two-column__teaser-headline">
+              The Brutal Celebrity Breakup That Proves Being a Wife Guy Is Risky Business
+            </h3>
+<div class="section-feed-two-column__teaser-author">
+Sam Adams, Julia Craven, Nadira Goffe, Rachelle Hampton, and Rebecca Onion
+              </div>
+</a>
+<a class="section-feed-two-column__teaser" href="https://slate.com/human-interest/2021/12/dear-prudence-uncensored-blame-game-fail.html">
+<div class="roadblock-indicator" data-uri="slate.com/_components/roadblock-indicator/instances/global@published">
+<svg class="roadblock-indicator__lock">
+<title>Content Locked</title>
+<use xlink:href="/media/components/roadblock-indicator/sprite.svg#lock"></use>
+</svg><svg class="roadblock-indicator__splus">
+<title>for Slate Plus members</title>
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#splus"></use>
+</svg>
+</div>
+<h3 class="section-feed-two-column__teaser-headline">
+              Dear Prudence Uncensored: “Blame Game Fail”
+            </h3>
+<div class="section-feed-two-column__teaser-author">
+Jenée Desmond-Harris and Akoto Ofori-Atta
+              </div>
+</a>
+<a class="section-feed-two-column__teaser" href="https://slate.com/human-interest/2021/12/dear-prudence-cursed-painting-yikes.html">
+<h3 class="section-feed-two-column__teaser-headline">
+              Help! My Husband’s Godmother Painted a Huge, Truly Disturbing Portrait of Us.
+            </h3>
+<div class="section-feed-two-column__teaser-author">
+Jenée Desmond-Harris
+              </div>
+</a>
+<a class="section-feed-two-column__teaser" href="https://slate.com/podcasts/the-waves/2021/12/kamala-harris-approval-down-save-herself">
+<h3 class="section-feed-two-column__teaser-headline">
+              Can Kamala Harris Turn Things Around? A Skeptic and an Optimist Debate.
+            </h3>
+<div class="section-feed-two-column__teaser-author">
+<svg class="signifier--podcast" height="1em" width="1em">
+<title>Podcast Episode</title>
+<use xlink:href="/media/sites/slate-com/signifiers.svg#headphones"></use>
+</svg>
+    
+                The Waves
+</div>
+</a>
+<a href="https://slate.com/news-and-politics">News &amp; Politics</a>
+<a href="/news-and-politics/politics">Politics</a>
+<a href="/news-and-politics/jurisprudence">Jurisprudence</a>
+<a href="/news-and-politics/war-stories">War Stories</a>
+<a href="/news-and-politics/the-world">The World</a>
+<a href="/news-and-politics/the-slatest">The Slatest</a>
+<a class="section-header__link" href="/news-and-politics">
+        View all
+        <span>News &amp; Politics</span>
+</a>
+<a class="section-feed-three-column__card-link" href="https://slate.com/news-and-politics/2021/11/polio-vaccine-antivaxxer-history-duon-miller.html">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/334865db-5f1a-41c4-82bb-c209bf47a02a.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-585" data-srcset="https://compote.slate.com/images/334865db-5f1a-41c4-82bb-c209bf47a02a.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-390 390w,https://compote.slate.com/images/334865db-5f1a-41c4-82bb-c209bf47a02a.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-585 585w,https://compote.slate.com/images/334865db-5f1a-41c4-82bb-c209bf47a02a.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-780 780w,https://compote.slate.com/images/334865db-5f1a-41c4-82bb-c209bf47a02a.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-1170 1170w,https://compote.slate.com/images/334865db-5f1a-41c4-82bb-c209bf47a02a.jpeg?width=780&amp;height=520&amp;rect=1560x1040&amp;offset=0x0&amp;s=image-1560 1560w"/></div>
+<div class="section-feed-three-column__card-teaser">
+<h3 class="section-feed-three-column__card-headline">
+              The Loneliest Anti-Vaxxer
+            </h3>
+<div class="section-feed-three-column__card-byline">
+Nick Keppler
+              </div>
+<p class="section-feed-three-column__card-dek">Even the popular polio shot had its haters.</p>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/news-and-politics/2021/12/supreme-court-abortion-breyer-barrett-roberts.html">
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline">
+              During Arguments Over <em>Roe</em>’s Fate, Justice Breyer Played Right Into the Conservatives’ Hands
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+Mark Joseph Stern
+              </div>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/podcasts/one-year/s2/1995/e3/uc-irvine-fertility-clinic-scandal">
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline">
+              The Women Who Found Out Their Eggs Had Been Used to Make Other People’s Babies
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+<svg class="signifier--podcast" height="1em" width="1em">
+<title>Podcast Episode</title>
+<use xlink:href="/media/sites/slate-com/signifiers.svg#headphones"></use>
+</svg>
+    
+                One Year
+</div>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/news-and-politics/2021/12/liam-kerr-centrist-democrats-big-tent-welcome-party.html">
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline">
+              How a Centrist Is Completely Rethinking How to Get Independents to Vote for Democrats
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+Christina Cauterucci
+              </div>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/podcasts/what-next/2021/12/why-chris-cuomo-will-probably-stay-at-cnn">
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline">
+              Why No One Told Chris Cuomo No
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+<svg class="signifier--podcast" height="1em" width="1em">
+<title>Podcast Episode</title>
+<use xlink:href="/media/sites/slate-com/signifiers.svg#headphones"></use>
+</svg>
+    
+                What Next
+</div>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/news-and-politics/2021/12/where-trump-went-secret-covid-test.html">
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline">
+              All the Places Trump Went After Secretly Testing Positive for COVID
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+William Saletan
+              </div>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/news-and-politics/2021/12/ghislaine-maxwell-trial-day-three-jane-matt-interlochen.html">
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline">
+              How Ghislaine Maxwell’s Lawyers Are Attempting to Discredit Her Accusers
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+Seth Stevenson
+              </div>
+</div>
+</a>
+<a class="section-feed-three-column__teaser" href="https://slate.com/news-and-politics/2021/12/cuban-protests-achipielago-15n-government-suppression.html">
+<div class="section-feed-three-column__teaser-img">
+<div class="lazyload-container"><img alt="" class="lazyload" data-sizes="auto" data-src="https://compote.slate.com/images/b3fafb80-090b-41af-88bd-009aaa4a39d6.jpeg?width=780&amp;height=520&amp;rect=6036x4024&amp;offset=12x0&amp;s=image-390" data-srcset="https://compote.slate.com/images/b3fafb80-090b-41af-88bd-009aaa4a39d6.jpeg?width=780&amp;height=520&amp;rect=6036x4024&amp;offset=12x0&amp;s=image-390 390w,https://compote.slate.com/images/b3fafb80-090b-41af-88bd-009aaa4a39d6.jpeg?width=780&amp;height=520&amp;rect=6036x4024&amp;offset=12x0&amp;s=image-585 585w,https://compote.slate.com/images/b3fafb80-090b-41af-88bd-009aaa4a39d6.jpeg?width=780&amp;height=520&amp;rect=6036x4024&amp;offset=12x0&amp;s=image-780 780w,https://compote.slate.com/images/b3fafb80-090b-41af-88bd-009aaa4a39d6.jpeg?width=780&amp;height=520&amp;rect=6036x4024&amp;offset=12x0&amp;s=image-1170 1170w,https://compote.slate.com/images/b3fafb80-090b-41af-88bd-009aaa4a39d6.jpeg?width=780&amp;height=520&amp;rect=6036x4024&amp;offset=12x0&amp;s=image-1560 1560w"/></div>
+</div>
+<div class="section-feed-three-column__teaser-content">
+<h3 class="section-feed-three-column__teaser-headline section-feed-three-column__teaser-headline--promoted">
+              The Cuban Government Hasn’t Won Yet
+            </h3>
+<div class="section-feed-three-column__teaser-author">
+Michael J. Bustamante
+              </div>
+</div>
+</a>
+<a href="/about">About Us</a>
+<a href="https://jobs.lever.co/slate">Work With Us</a>
+<a href="/contact">Contact</a>
+<a href="/pitch">Pitch Guidelines</a>
+<a href="/tips">Send Us Tips</a>
+<a href="/news-and-politics/corrections">Corrections</a>
+<a href="/commenting">Commenting</a>
+<a href="http://www.slatereprints.com/">Reprints</a>
+<a href="https://slate.com/plus">Subscribe</a>
+<a href="https://slate.com/sign-in">Sign In</a>
+<a href="https://slate.com/account">Account</a>
+<a href="/plus/faq">Subscription FAQs</a>
+<a href="/podcastfaqs">Podcast FAQs</a>
+<a href="/signup">Newsletters</a>
+<a href="https://slatehelp.freshdesk.com/support/solutions">Customer Support</a>
+<a href="mailto:advertise@slate.com">Site Advertising</a>
+<a href="http://mediakit.slate.com/podcast-network">Podcast Advertising</a>
+<a href="http://optout.aboutads.info/">AdChoices</a>
+<a href="/do-not-sell" onclick="(function(event){window.OneTrust &amp;&amp; window.OneTrust.ToggleInfoDisplay(); event.preventDefault(); }(event))">Cookie Preferences</a>
+<a class="global-footer__social-link" href="https://www.facebook.com/Slate/">
+<svg class="global-footer__social-badge" height="18" width="18">
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#facebook"></use>
+</svg>
+						Facebook
+					</a>
+<a class="global-footer__social-link" href="https://twitter.com/slate">
+<svg class="global-footer__social-badge" height="15" width="18">
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#twitter"></use>
+</svg>
+						Twitter
+					</a>
+<a class="global-footer__social-link" href="https://www.instagram.com/slate/">
+<svg class="global-footer__social-badge" height="18" width="18">
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#instagram"></use>
+</svg>
+						Instagram
+					</a>
+<a class="global-footer__social-link" href="/rss">
+<svg class="global-footer__social-badge" height="18" width="18">
+<use xlink:href="/media/sites/slate-com/global-sprite.svg#rss"></use>
+</svg>
+						RSS Feed
+					</a>
+<a href="/terms">User Agreement</a>
+<a href="/privacy">Privacy Policy</a>
+<input class="search-form__input" id="search-input" name="q" placeholder="Search for"/>
+ 
+
+ Please take a look at https://webaim.org/techniques/keyboard/tabindex for more information!
+
+---------------------COLOR CONTRAST---------------------
+
+The following elements have insufficient color contrast. Please take a look at the list 
+
+color-contrast - Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds
+	URL: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
+	Impact Level: serious
+	Tags: cat.color wcag2aa wcag143
+	Elements Affected:
+	1) Target: div:nth-child(5) > .ad--tabletPortraitOnly.slate-ad > .slate-ad__label
+		Element has insufficient color contrast of 3.17 (foreground color: #919191, background color: #ffffff, font size: 9.7pt, font weight: normal). Expected contrast ratio of 4.5:1
+	2) Target: div:nth-child(9) > .ad--tabletPortraitOnly.slate-ad > .slate-ad__label
+		Element has insufficient color contrast of 3.17 (foreground color: #919191, background color: #ffffff, font size: 9.7pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+We request you to please check out this documentation(https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) to fix these issues with your websites!
+
