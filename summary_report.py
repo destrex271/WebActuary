@@ -37,7 +37,7 @@ def cookie_summary():
     if os.path.isfile('cookies/cookies.json'):
         with open('cookies/cookies.json') as file:
             cookie_dict = json.load(file)
-        print(cookie_dict)
+        #print(cookie_dict)
         tx = f"\nTotal Cookies detected were : {len(cookie_dict)}"
     else:
         tx = "\nNo Cookies were detected!"

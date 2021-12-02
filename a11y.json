@@ -9193,24 +9193,6 @@
                     "all": [],
                     "any": [
                         {
-                            "data": null,
-                            "id": "duplicate-id",
-                            "impact": "minor",
-                            "message": "Document has no static elements that share the same id attribute",
-                            "relatedNodes": []
-                        }
-                    ],
-                    "html": "<script type=\"text/javascript\" id=\"\">",
-                    "impact": null,
-                    "none": [],
-                    "target": [
-                        "body > script[type=\"text\\/javascript\"]"
-                    ]
-                },
-                {
-                    "all": [],
-                    "any": [
-                        {
                             "data": "modal",
                             "id": "duplicate-id",
                             "impact": "minor",
@@ -9223,6 +9205,24 @@
                     "none": [],
                     "target": [
                         "#modal"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<script type=\"text/javascript\" id=\"\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "body > script[type=\"text\\/javascript\"]"
                     ]
                 }
             ],
@@ -26082,7 +26082,7 @@
             ]
         }
     ],
-    "timestamp": "2021-12-02T17:11:35.693Z",
+    "timestamp": "2021-12-02T18:00:35.161Z",
     "url": "https://ubuntu.com/",
     "violations": [
         {

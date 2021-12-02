@@ -142,7 +142,6 @@ def tab_index():
     with open("tab_index/tab_index.txt", 'r', encoding="utf-8") as file:
         mx = file.read()
         mx = str(mx)
-        print(len(mx))
         if len(mx) > 0:
             tx = f"\nYour Website isn't tab indexed properly.\nYou are requested to use the global attribute 'tabindex' in : \n\n "+ mx +f" \n\n Please take a look at {link} for more information!"
         else:

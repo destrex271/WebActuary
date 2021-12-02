@@ -161,7 +161,7 @@ def ui():
                 only_one = False
             else:
                 url_list.append(url)
-            print(f"{url_list}")
+            #print(f"{url_list}")
 
             for x in url_list:
                 run_program(x, trigger_ssl, trigger_cookie, trigger_ada)
