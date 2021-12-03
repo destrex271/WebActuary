@@ -1,29 +1,0 @@
----------------------DISCLAIMER--------------------- 
-
-This is an automatically generated audit report for the given url: https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement.
-
-This is an automatically generated audit report for the given url.
-This report contains information on :
-
-	1. Ssl certificate of the url.
-	2. Cookie/privacy policy.
-	3. Whether or not the user's permission was taken for using cookies.
-	4. Adherence with ADA Compliance.
-
-Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.
-Also please note that this report only lists the violations in compliance apart from general information along with the fixes.
-If there is nothing mentioned under a category it means that your website passed those tests.
-
-
-
----------------------SSL REPORT---------------------
-
-Issued To - unfccc.int
-
-Issued by :
- 	country name :  BE	organization name :  GlobalSign nv-sa	common name :  GlobalSign Atlas R3 DV TLS CA H2 2021
-
-Valid From : Nov 25 05:43:39 2021 UTC
-Valid Upto : May 26 20:38:15 2022 UTC
-
-

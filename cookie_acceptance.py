@@ -56,7 +56,7 @@ class CookieConsent:
                 did_accept = md.did_accept
             if md.has_policy:
                 has_policy = md.has_policy
-                did_accept = True
+                #did_accept = True
                 policy_link = md.policy_link
 
         ls = ["/privacy", "/privacy-policy", "/privacy-settings", "/legal/data-privacy", "/en/cookiepolicy"]
@@ -76,5 +76,5 @@ class CookieConsent:
             "did_accept": did_accept,
             "policy_link": policy_link,
         }
-        #print(final_dict)
+        print(final_dict)
         return final_dict

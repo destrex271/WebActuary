@@ -132,36 +132,15 @@ def ui():
             if trigger_all:
                 trigger_ssl, trigger_cookie, trigger_ada = True, True, True
 
-            '''#----------------------thread goes here---------------------------
-            # Create a thread from a function with arguments
-            th = threading.Thread(target=run_program, args=(url,))
-
-            # Start the thread
-            th.start()
-            # Wait for thread to finish
-            th.join()
-            #----------------------thread ends here---------------------------'''
-
-            """if trigger_ssl==True:
-                print("ssl")
-            if trigger_cookie==True:
-                print("cookies")
-            if trigger_ada==True:
-                print("ada")
-            if trigger_all==True:
-                print("alll")"""
-
             if os.path.isfile(url):
                 with open(url, "r") as file:
                     li = file.read().split("\n")
-                    #print(li)
                     for x in li:
                         url_list.append(x)
 
                 only_one = False
             else:
                 url_list.append(url)
-            #print(f"{url_list}")
 
             for x in url_list:
                 run_program(x, trigger_ssl, trigger_cookie, trigger_ada)
@@ -195,7 +174,6 @@ def run_program(url, trigger_ssl, trigger_cookie, trigger_ada):
             print("Analyzing the security of your website........")
             ssl_mod.get_certificate()
             ssl_text = fin.ssl_report(url)
-            # declutter(ssl_mod)
             st += "\n\n---------------------SSL REPORT---------------------\n" + ssl_text + "\n\n"
 
         # updating loading bar starts
@@ -219,8 +197,6 @@ def run_program(url, trigger_ssl, trigger_cookie, trigger_ada):
             ck_report = fin.total_cookie_report()
             consent_report = fin.cookie_consent()
             st += "\n---------------------COOKIE REPORT---------------------\n" + ck_report + consent_report + "\n\n"
-
-            # declutter(cookie_mod)
 
         # updating loading bar starts
         window.refresh()

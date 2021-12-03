@@ -1,0 +1,92 @@
+<h1 id="web-actuary">Web Actuary</h1>
+<h3 id="a-simple-console-tool-to-check-the-accessibility-issues-of-your-website">A simple console tool to check the accessibility issues of your website</h3>
+<p>This tool prepares a report based for the given url based of on these parameters:</p>
+<ul>
+<li><p>Details of the SSL Certificate</p></li>
+<li><p>Cookies being used (only session cookies)</p></li>
+<li><p>ADA Compliance Violations</p>
+<ul>
+<li>Alt text in all images</li>
+<li>Color Contrast as per w3.org</li>
+<li>Tabbed Navigation in a website</li>
+</ul></li>
+</ul>
+<h2 id="dependencies">Dependencies</h2>
+<p>Chrome Web Browser is an absolute requirement for this tool to work properly.</p>
+<p>Python Version 3.3+ is required for this tool.</p>
+<p>Chrome Web Driver:</p>
+<p>Download the Chrome webdriver for your specific operating system and follow the steps accordingly.</p>
+<ul>
+<li>Windows
+<ul>
+<li>Create a directory name <code>C:\bin</code></li>
+<li>Check your chrome browser version from <code>Menu&gt;Help&gt;About Chrome</code> from google chrome browser.(it would be a number like 96.0.445.0 etc)</li>
+<li>Download the chrome driver according to your chrome version from https://chromedriver.chromium.org/downloads</li>
+<li>Extract the zip file and copy the chromedriver.exe file to <code>C:\bin</code></li>
+<li><h2 id="setup-the-environment-variable-for-the-chromewebdriver-as-follows">Setup the Environment variable for the chromewebdriver as follows</h2>
+<ul>
+<li><p>Search for ‘Env’ in start launcher and click on ‘Edit the System environment variables’ option.</p>
+<h2 id="control-panel"><img src="https://i.imgur.com/zE1TUF0.png" alt="‘Control Panel’" /></h2>
+<ul>
+<li>Open the Environment variables window.</li>
+</ul>
+<figure>
+<img src="https://i.imgur.com/6TzjjYH.png" alt="" /><figcaption>‘Env App’</figcaption>
+</figure>
+<ul>
+<li>Edit the Path variable in User variables and add C:to it <img src="https://i.imgur.com/z2kJyvR.png" alt="‘Add to Path’" /></li>
+</ul></li>
+</ul></li>
+<li>Verify setup with <code>chromedriver.exe -v</code> and check if the version mentions your google chrome version.</li>
+</ul></li>
+<li>Linux
+<ul>
+<li>Please check your google chrome version by running <code>google-chrome --version</code> in your terminal.</li>
+<li>Download the chrome webdriver according to the chrome version from https://chromedriver.chromium.org/downloads</li>
+<li>Unzip the folder and copy the <code>chromedriver</code> file to <code>/usr/bin/chromedriver</code> by <code>sudo mv chromedriver /usr/bin/chromedriver</code></li>
+<li>Run these commands to make it executable <code>sudo chown root:root /usr/bin/chromedriver</code> and <code>sudo chmod +x /usr/bin/chromedriver</code></li>
+<li>Please ensure that you have the latest version of pip installed. If not then please install it from <code>sudo apt-get install python3-pip</code></li>
+<li>while running the dependency.sh file if you get an error as : <code>ERROR: pyopensll 21.0.0 has requirement cryptography&gt;=3.3, but you'll have cryptography 2.8 which is incompatible</code> then run <code>pip install cryptography==3.3</code> to resolve it.</li>
+</ul></li>
+</ul>
+<p>The python libraries required for this tool are:</p>
+<pre><code>requests
+selenium
+axe_selenium_python
+bs4 ( BeautifulSoup )
+pyqt5
+PyQtWebEngine
+validators
+pysimplegui
+tkinter</code></pre>
+<p><strong><em>You Can install these dependencies manually using pip or you can use the dependency scripts as mentioned below.</em></strong></p>
+<h2 id="running-this-tool-on-various-operating-systems">Running this tool on various operating systems</h2>
+<ul>
+<li><h3 id="windows">Windows</h3>
+<p>Navigate to the <code>windows</code> folder under <code>WebActuary-main/</code> and run the <code>dependencies.bat</code> file in order to get all the libraries being used.</p>
+<p>After this run the <code>begin_audit.bat</code> file to start the applications.</p>
+<p>‘dependencies.bat’ file can be used to install all the libraries required for this tool to work.</p>
+<p>‘begin_audit.bat’ file is the main file that can be used to run this tool. You can also select a text file containing all your urls in seperate lines to run multiple tests.</p>
+<p><img src="https://i.imgur.com/uqEfnS3.png" alt="Running bat" /> <img src="https://i.imgur.com/DVsqNW2.png" alt="File Selection" /> <img src="https://i.imgur.com/ecrfrUv.png" alt="Finished bat" /></p></li>
+<li><h3 id="linux">Linux</h3>
+<p>Navigate to the <code>linux</code> folder under <code>WebActuary-main/</code> and run the following commands:</p>
+<ul>
+<li><code>sudo chmod +x dependencies.sh</code></li>
+<li><code>sudo chmod +x begin_audit.sh</code></li>
+</ul>
+<p>Run the dependencies file as <code>./dependencies.sh</code></p>
+<figure>
+<img src="https://i.imgur.com/Jh0TEKy.png" alt="" /><figcaption>Dependency Ubuntu</figcaption>
+</figure>
+<p>To begin the Audit process run the begin_audit file as <code>./begin_audit.sh</code> You can also select a text file containing all your urls in seperate lines to run multiple tests. <img src="https://i.imgur.com/vJiuqyK.png" alt="Begin Audit Ubuntu" /></p></li>
+</ul>
+<h2 id="known-issues">Known Issues</h2>
+<ul>
+<li><p>Please ensure that your python installation has the python3.dll file along with it. If not you might face an error similar to this:</p>
+<pre><code>from PyQt5.QtWebEngineWidgets import QWebEnginePage
+ImportError: DLL load failed while importing QtWebEngineWidgets: The specified module could not be found.</code></pre></li>
+<li><p>For an accurate audit report kindly disable chrome extensions like darkreader that might affect the default User Interface of the webpage since most of the accessibility tests are run on the client side.</p></li>
+<li><p>Also kindly disable other chrome extensions that might block the cookies and pop-ups/banners.</p></li>
+<li><p>If you face an error like: This version of ChromeDriver only supports Chrome version X. Please download the suitable driver from https://chromedriver.chromium.org/downloads according to the version as seen in the error according to your operating system.</p></li>
+<li><p>If the program enters the ‘not responding’ mode kinldy wait for a few seconds.</p></li>
+</ul>
