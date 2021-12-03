@@ -76,5 +76,5 @@ class CookieConsent:
             "did_accept": did_accept,
             "policy_link": policy_link,
         }
-        print(final_dict)
+        #print(final_dict)
         return final_dict
